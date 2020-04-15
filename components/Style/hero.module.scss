@@ -1,0 +1,9 @@
+@import "../../base/index.scss";
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: $mn/1.5;
+}

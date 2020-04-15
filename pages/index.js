@@ -1,9 +1,10 @@
-// import Header from "../components/header"
+import Header from "../components/header"
+import Hero from "../components/hero"
 
 const IndexPage = () => {
     return <div>
-        {/* <Header /> */}
-        <h1>Hello World</h1>
+        <Header />
+        <Hero />
     </div>
 }
 

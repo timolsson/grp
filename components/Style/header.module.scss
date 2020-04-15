@@ -1,0 +1,15 @@
+@import "../../base/index.scss";
+
+.header {
+    
+    box-shadow: 0 0 10px #0004;
+    display: flex;
+    width: 100vw;
+  .LogInButton {
+      margin-left: auto;
+  }
+  h1, button {
+    @include FontLarge;
+    padding: 0 $mn/2;
+  }
+}
