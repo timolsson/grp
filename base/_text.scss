@@ -1,0 +1,13 @@
+$FontLarge: 22px;
+$FontHeadline: 60px;
+
+
+@mixin FontHeadline {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: $FontHeadline;
+    font-weight: 800;
+}
+@mixin FontLarge {
+    font-size: $FontLarge;
+    font-weight: 400;
+}
