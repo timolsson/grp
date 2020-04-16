@@ -1,0 +1,39 @@
+@import "../../base/index.scss";
+
+.initiativeCard {
+  flex-grow: 1;
+  width: 22%;
+  min-width: 400px;
+  background-color: $ColorAsh;
+  margin: $mn/4;
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.18);
+  padding: $mn/3;
+  min-height: 350px;
+  position: relative;
+  p {
+    color: $ColorRock;
+    @include FontNormal;
+  }
+
+  .title {
+    @include FontExtraLarge;
+  }
+  a {
+    display: block;
+    text-decoration: none;
+    padding: $mn/6 0px;
+    @include FontNormal;
+  }
+  .icons {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: $mn/3 0px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    img {
+      width: 9.5%;
+    }
+  }
+}

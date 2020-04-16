@@ -1,13 +1,27 @@
+@import url("https://rsms.me/inter/inter.css");
+
 $FontLarge: 22px;
 $FontHeadline: 60px;
-
+$FontNormal: 16px;
+$FontExtraLarge: 30px;
 
 @mixin FontHeadline {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: $FontHeadline;
-    font-weight: 800;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: $FontHeadline;
+  font-weight: 800;
 }
 @mixin FontLarge {
-    font-size: $FontLarge;
-    font-weight: 400;
+  font-size: $FontLarge;
+  font-weight: 400;
+}
+
+@mixin FontNormal {
+  font-size: $FontNormal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@mixin FontExtraLarge {
+  font-size: $FontExtraLarge;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
 }
