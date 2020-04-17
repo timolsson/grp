@@ -5,7 +5,6 @@ import Initiatives from "../components/Initiatives"
 const IndexPage = () => {
     return <div>
         <Header />
-        <Hero />
         <Initiatives />
     </div>
 }

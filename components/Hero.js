@@ -2,7 +2,7 @@ import style from "./Style/hero.module.scss"
 
 import HeroCard from "./HeroCard";
 
-const Hero = () => {
+ const Hero = () => {
     const cardData = [{
         title: "Sick title1",
         stat: 1234,
@@ -35,5 +35,6 @@ const Hero = () => {
         </div>
     )
 }
+
 
 export default Hero;
