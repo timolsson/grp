@@ -1,77 +1,88 @@
-import { useRef, useEffect } from "react";
+import { useRef, useEffect } from 'react';
+import Router from 'next/router';
 import style from './Style/filter.module.scss';
 
-const Filter = ({setFilter}) => {
-    const mainArea = useRef()
-    useEffect(() => {
-        mainArea.current.addEventListener("change", () => {
-            setFilter(mainArea.current.value)
-        })
-    }, []);
-    return (
-        <div className={style.filter}>
-            <select ref={mainArea}>
-                <option value="policy_planning" >
-                    Policy & Planning
-                </option>
-                <option value="knowledge_learning">
-                    Knowledge & Learning
-                </option>
-                <option value="finance_budgets" >
-                    Finance & Budget
-                </option>
-                <option value="practice_innovation">
-                    Innovation & Practice
-                </option>
-            </select>
+const Filter = ({ setFilter }) => {
+     const mainArea = useRef();
+     const region = useRef();
+     const type = useRef();
+     const sector = useRef();
 
-            <select ref={mainArea}>
-                <option value="policy_planning" >
-                    Global
-                </option>
-                <option value="knowledge_learning">
-                    Regional - S. Asia
-                </option>
-                <option value="finance_budgets" >
-                    Regional - Africa
-                </option>
-                <option value="practice_innovation">
-                    Regional - LA
-                </option>
-                <option value="practice_innovation">
-                    Regional - SE. Asia
-                </option>
-            </select>
+     let filters = {};
 
-            <select ref={mainArea}>
-                <option value="policy_planning" >
-                    Network/Partnership/Platform
-                </option>
-                <option value="knowledge_learning">
-                    Programme
-                </option>
-                <option value="finance_budgets" >
-                    Fund/Finance
-                </option>
-                <option value="practice_innovation">
-                    Organisation
-                </option>
-            </select>
+     useEffect(() => {
+          mainArea.current.addEventListener('change', () => {
+               filters = {
+                    ...filters,
+                    mainArea: mainArea.current.value,
+               };
+               pushToRouter(filters);
+          });
+          region.current.addEventListener('change', () => {
+               filters = {
+                    ...filters,
+                    main_geographic_focus: region.current.value,
+               };
+               pushToRouter(filters);
+          });
+          type.current.addEventListener('change', () => {
+               filters = {
+                    ...filters,
+                    type: type.current.value,
+               };
+               pushToRouter(filters);
+          });
+          sector.current.addEventListener('change', () => {
+               filters = {
+                    ...filters,
+                    sector: sector.current.value,
+               };
+               pushToRouter(filters);
+          });
+     }, []);
 
-            <select ref={mainArea}>
-            <option value="policy_planning" >
-                Public
-            </option>
-            <option value="knowledge_learning">
-                Private
-            </option>
-            <option value="finance_budgets" >
-                CSO
-            </option>
+     const pushToRouter = (filters) => {
+          Router.push({ pathname: '/', query: filters });
+     };
 
-            </select>
-        </div>
-    );
-}
+     return (
+          <div className={style.filter}>
+               <select ref={mainArea}>
+                    <option value="policy_planning">Policy & Planning</option>
+                    <option value="knowledge_learning">
+                         Knowledge & Learning
+                    </option>
+                    <option value="finance_budgets">Finance & Budget</option>
+                    <option value="practice_innovation">
+                         Innovation & Practice
+                    </option>
+               </select>
 
-export default Filter
+               <select ref={region}>
+                    <option>Global</option>
+                    <option>Regional - Africa</option>
+                    <option>Regional - Asia</option>
+                    <option>Regional - LA</option>
+                    <option>Regional - S. Asia</option>
+                    <option>Regional - SE Asia</option>
+               </select>
+
+               <select ref={type}>
+                    <option value="policy_planning">
+                         Network/Partnership/Platform
+                    </option>
+                    <option>Programme</option>
+                    <option>Fund/Finance</option>
+                    <option>Organisation</option>
+               </select>
+
+               <select ref={sector}>
+                    <option>Public</option>
+                    <option>Private</option>
+                    <option>CSO</option>
+               </select>
+          </div>
+     );
+};
+
+export default Filter;
