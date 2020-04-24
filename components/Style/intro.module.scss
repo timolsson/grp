@@ -1,7 +1,7 @@
 @import '../../base/index.scss';
 
 .intro {
-     display: none;
+     display: flex;
      position: relative;
      width: auto;
      flex-wrap: wrap;
@@ -13,6 +13,7 @@
      border: 2px inset green;
      background-color: $ColorAsh;
      box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.18);
+     transition: 0.5s all ease;
      @media only screen and (min-width: 1200px) {
           padding: $mn/2 $mn/3;
      }
@@ -30,18 +31,14 @@
                width: 70%;
           }
      }
-}
-
-.button {
-     margin: $mn/3;
-     background: none;
-     color: grey;
-     font-size: 1rem;
-     position: absolute;
-     right: 0;
-     top: 0;
-     border: 1px solid grey;
-     &:checked + .intro {
-          display: flex;
+     .button {
+          margin: $mn/3;
+          background: none;
+          color: grey;
+          font-size: 1rem;
+          position: absolute;
+          right: 0;
+          top: 0;
+          border: 1px solid grey;
      }
 }
