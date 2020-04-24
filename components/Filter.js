@@ -11,6 +11,7 @@ const Filter = ({ setFilter }) => {
      let filters = {};
 
      useEffect(() => {
+          console.log(filters);
           mainArea.current.addEventListener('change', () => {
                filters = {
                     ...filters,
@@ -24,6 +25,7 @@ const Filter = ({ setFilter }) => {
                     main_geographic_focus: region.current.value,
                };
                pushToRouter(filters);
+               console.log(filters);
           });
           type.current.addEventListener('change', () => {
                filters = {
@@ -68,11 +70,9 @@ const Filter = ({ setFilter }) => {
                </select>
 
                <select ref={type}>
-                    <option value="policy_planning">
-                         Network/Partnership/Platform
-                    </option>
+                    <option>Network/ partnership/ platform</option>
                     <option>Programme</option>
-                    <option>Fund/Finance</option>
+                    <option>Fund/finance</option>
                     <option>Organisation</option>
                </select>
 
