@@ -15,19 +15,19 @@ const InitiativeCard = ({ data }) => {
   url = url.length < 1 ? "🙅🏼‍♂️" : url;
 
   useEffect(() => {
-    if (data.policy_planning !== "1") {
-      policy.current.style.opacity = "0.3";
-    }
-    if (data.knowledge_learning !== "1") {
-      knowledge.current.style.opacity = "0.3";
-    }
-    if (data.finance_budgets !== "1") {
-      money.current.style.opacity = "0.3";
-    }
-    if (data.practice_innovation !== "1") {
-      idea.current.style.opacity = "0.3";
-    }
-  }, []);
+    data.policy_planning !== "1"
+      ? (policy.current.style.opacity = "0.3")
+      : (policy.current.style.opacity = "1");
+    data.knowledge_learning !== "1"
+      ? (knowledge.current.style.opacity = "0.3")
+      : (knowledge.current.style.opacity = "1");
+    data.finance_budgets !== "1"
+      ? (money.current.style.opacity = "0.3")
+      : (money.current.style.opacity = "1");
+    data.practice_innovation !== "1"
+      ? (idea.current.style.opacity = "0.3")
+      : (idea.current.style.opacity = "1");
+  }, [data]);
 
   return (
     <div className={style.initiativeCard}>
