@@ -1,12 +1,14 @@
-import Header from "../components/header"
-import Hero from "../components/hero"
-import Initiatives from "../components/Initiatives"
+import Header from "../components/Header";
+import Hero from "../components/Hero";
+import Initiatives from "../components/Initiatives";
 
 const IndexPage = () => {
-    return <div>
-        <Header />
-        <Initiatives />
+  return (
+    <div>
+      <Header />
+      <Initiatives />
     </div>
-}
+  );
+};
 
-export default IndexPage
+export default IndexPage;
