@@ -1,0 +1,44 @@
+@import '../../base/index.scss';
+
+.intro {
+     display: flex;
+     position: relative;
+     width: auto;
+     flex-wrap: wrap;
+     flex-direction: column;
+     height: min-content;
+     margin: $mn/4 $mn/4;
+     padding: $mn/2 $mn/3;
+     border-radius: 5px;
+     border: 2px inset green;
+     background-color: $ColorAsh;
+     box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.18);
+     transition: 0.5s all ease;
+     @media only screen and (min-width: 1200px) {
+          padding: $mn/2 $mn/3;
+     }
+
+     h1 {
+          @include FontExtraLarge;
+          margin-bottom: 1rem;
+     }
+     p {
+          @include FontNormal;
+          width: 90%;
+          text-align: justify;
+          color: $ColorRock;
+          @media only screen and (min-width: 1200px) {
+               width: 70%;
+          }
+     }
+     .button {
+          margin: $mn/3;
+          background: none;
+          color: grey;
+          font-size: 1rem;
+          position: absolute;
+          right: 0;
+          top: 0;
+          border: 1px solid grey;
+     }
+}
