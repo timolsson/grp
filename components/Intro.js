@@ -22,16 +22,7 @@ const Intro = () => {
                          x
                     </button>
 
-                    <p>
-                         The Center for Climate Change and Environmental
-                         Research (C3ER) at BRAC University has tested
-                         community-led innovations that enhance the resilience
-                         of households and communities before, during and after
-                         floods. The project solution involved the design and
-                         testing of flood-resilient houses, and related
-                         integrated innovations such as water harvesting, cage
-                         fishing, and renewable energy
-                    </p>
+                    <p>This is an intro text to what this page is about.</p>
                </div>
           </div>
      );
