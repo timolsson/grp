@@ -1,35 +1,74 @@
-import style from "./Style/intro.module.scss";
-import { useRef, useEffect } from "react";
+import style from './style/intro.module.scss';
+import { useRef, useEffect, useState } from 'react';
+import Link from 'next/link';
 const Intro = () => {
-  const button = useRef();
-  const intro = useRef();
-  useEffect(() => {
-    button.current.addEventListener("click", () => {
-      intro.current.style.display = "none";
-    });
-  }, []);
-  return (
-    <div>
-      {/* <input type="checkbox" className={style.button} /> */}
-      {/* <label for="checkbox">Click me</label> */}
-      <div ref={intro} className={style.intro}>
-        <h1>Introduction to global resilience partnership initiatives</h1>
-        <button ref={button} className={style.button}>
-          {" "}
-          x
-        </button>
+     const button = useRef();
+     const intro = useRef();
 
-        <p>
-          The Center for Climate Change and Environmental Research (C3ER) at
-          BRAC University has tested community-led innovations that enhance the
-          resilience of households and communities before, during and after
-          floods. The project solution involved the design and testing of
-          flood-resilient houses, and related integrated innovations such as
-          water harvesting, cage fishing, and renewable energy
-        </p>
-      </div>
-    </div>
-  );
+     const [toggle, setToggle] = useState(true);
+
+     // useEffect(() => {
+     // button.current.addEventListener('click', () => {
+     // setToggle(!toggle);
+     //      });
+     // }, []);
+
+     return (
+          <div>
+               <button
+                    ref={button}
+                    className={style.button}
+                    onClick={() => {
+                         setToggle(!toggle);
+                    }}
+               >
+                    {toggle ? 'x' : 'intro'}
+               </button>
+               {/* <input type="checkbox" className={style.button} /> */}
+               {/* <label for="checkbox">Click me</label> */}
+               {toggle ? (
+                    <div ref={intro} className={style.intro}>
+                         <h1>
+                              Mapping of Global and Regional Funds, Networks and
+                              Programmes
+                         </h1>
+
+                         <p>
+                              GRP has undertaken a{' '}
+                              <a href="http://www.globalresiliencepartnership.org/resources/mapping-of-global-and-regional-funds-networks-and-programmes/">
+                                   Resilience Mapping
+                              </a>{' '}
+                              of global and regional initiatives from funds,
+                              networks, alliances, partnerships, organisations
+                              to programmes and projects that either have a
+                              focus on resilience or cover some aspect of
+                              resilience. The initiatives mapped are summarised
+                              with a short description. Their objectives are
+                              grouped under the following headings: <br />
+                              <ul>
+                                   <li>Fund and financing facilities</li>
+                                   <br />
+                                   <li>Networks, alliances and partnerships</li>
+                                   <br />
+                                   <li>Organisations</li>
+                                   <br />
+                                   <li>Programmes and projects</li>
+                              </ul>
+                              GRP welcomes the details of further initiatives
+                              and corrections to any of these summaries in this
+                              document. The should be sent to
+                              info@globalresiliencepartnership.org.
+                              <br />
+                              <br />
+                              <a href="http://www.globalresiliencepartnership.org/wp-content/uploads/2018/05/GRP-Resilience-Mapping-6-March-2020.pdf">
+                                   GRP Resilience Mapping (updated 6 March 2020
+                              </a>
+                         </p>
+                    </div>
+               ) : (
+                    ''
+               )}
+          </div>
+     );
 };
-
 export default Intro;
