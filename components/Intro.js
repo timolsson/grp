@@ -44,16 +44,25 @@ const Intro = () => {
                               focus on resilience or cover some aspect of
                               resilience. The initiatives mapped are summarised
                               with a short description. Their objectives are
-                              grouped under the following headings: <br />
-                              <ul>
-                                   <li>Fund and financing facilities</li>
+                              grouped under the following headings:
+                         </p>
+
+                         <ul>
+                              <li>
+                                   Fund and financing facilities
                                    <br />
-                                   <li>Networks, alliances and partnerships</li>
+                              </li>
+                              <li>
+                                   Networks, alliances and partnerships
                                    <br />
-                                   <li>Organisations</li>
+                              </li>
+                              <li>
+                                   Organisations
                                    <br />
-                                   <li>Programmes and projects</li>
-                              </ul>
+                              </li>
+                              <li>Programmes and projects</li>
+                         </ul>
+                         <p>
                               GRP welcomes the details of further initiatives
                               and corrections to any of these summaries in this
                               document. The should be sent to
@@ -61,7 +70,7 @@ const Intro = () => {
                               <br />
                               <br />
                               <a href="http://www.globalresiliencepartnership.org/wp-content/uploads/2018/05/GRP-Resilience-Mapping-6-March-2020.pdf">
-                                   GRP Resilience Mapping (updated 6 March 2020
+                                   GRP Resilience Mapping (updated 6 March 2020)
                               </a>
                          </p>
                     </div>
