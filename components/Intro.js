@@ -18,11 +18,15 @@ const Intro = () => {
                <button
                     ref={button}
                     className={style.button}
+                    style={{
+                         marginRight: toggle ? '' : '6px',
+                         marginTop: toggle ? '' : '1px',
+                    }}
                     onClick={() => {
                          setToggle(!toggle);
                     }}
                >
-                    {toggle ? 'x' : 'intro'}
+                    {toggle ? 'x' : 'Info'}
                </button>
                {/* <input type="checkbox" className={style.button} /> */}
                {/* <label for="checkbox">Click me</label> */}
