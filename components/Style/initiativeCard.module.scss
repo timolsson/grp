@@ -1,97 +1,107 @@
-@import '../../base/index.scss';
+@import "../../base/index.scss";
 
 .initiativeCard {
-     flex-grow: 1;
+  position: relative;
+  width: 22%;
+  min-width: 400px;
+  flex-grow: 1;
+  min-height: 350px;
+  height: $mn * 6;
+  margin: $mn/4;
+  .front,
+  .back {
+    background-color: $ColorAsh;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: absolute;
+    will-change: transform, opacity;
+    width: 100%;
+    height: 100%;
+    padding: $mn/3;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.18);
+  }
+  .back {
+    // background-color: #fff;
+  }
+  .front {
+    .gradient {
+      width: 100%;
+      height: 10%;
+      left: 0;
+      bottom: 20%;
+      position: absolute;
+      display: block;
+      background-image: linear-gradient(
+        transparent,
+        $ColorAsh,
+        $ColorAsh,
+        $ColorAsh
+      );
+    }
 
-     width: 22%;
-     min-width: 400px;
+    p {
+      color: $ColorRock;
+      @include FontNormal;
+      height: 40%;
+      max-height: $mn * 1.5;
+      overflow-y: scroll;
+    }
 
-     // max-width: 400px;
-     background-color: $ColorAsh;
-     margin: $mn/4;
-     box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.18);
-     padding: $mn/3;
-
-     min-height: 350px;
-     position: relative;
-     border-bottom-right-radius: 10px;
-     border-bottom-left-radius: 10px;
-     .gradient {
+    .title {
+      @include FontExtraLarge;
+      height: 25%;
+      overflow-y: scroll;
+    }
+    a {
+      display: block;
+      text-decoration: none;
+      padding: $mn/6 0px;
+      @include FontNormal;
+    }
+    .bottomCard {
+      .colorGreen {
+        background: $ColorGreen;
+      }
+      .colorTeal {
+        background: $ColorTeal;
+      }
+      .colorPurple {
+        background: $ColorPurple;
+      }
+      .colorRed {
+        background: $ColorRed;
+      }
+      .colorYellow {
+        background: $ColorYellow;
+      }
+      .colorOrange {
+        background: $ColorOrange;
+      }
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      .icons {
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        padding: $mn/3 0px;
+        img {
+          width: 9.5%;
+        }
+      }
+      .categoryColor {
+        position: relative;
+        height: $mn/4;
+        width: 100%;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        div {
+          height: 100%;
           width: 100%;
-          height: 10%;
-          left: 0;
-          bottom: 20%;
-          position: absolute;
-          display: block;
-          background-image: linear-gradient(
-               transparent,
-               $ColorAsh,
-               $ColorAsh,
-               $ColorAsh
-          );
-     }
-     p {
-          color: $ColorRock;
-          @include FontNormal;
-          height: 40%;
-          max-height: $mn * 1.5;
-          overflow-y: scroll;
-     }
-
-     .title {
-          @include FontExtraLarge;
-          height: 25%;
-          overflow-y: scroll;
-     }
-     a {
-          display: block;
-          text-decoration: none;
-          padding: $mn/6 0px;
-          @include FontNormal;
-     }
-     .bottomCard {
-          .colorGreen {
-               background: $ColorGreen;
-          }
-          .colorTeal {
-               background: $ColorTeal;
-          }
-          .colorPurple {
-               background: $ColorPurple;
-          }
-          .colorRed {
-               background: $ColorRed;
-          }
-          .colorYellow {
-               background: $ColorYellow;
-          }
-          .colorOrange {
-               background: $ColorOrange;
-          }
-          position: absolute;
-          left: 0;
-          bottom: 0;
-          .icons {
-               display: flex;
-               width: 100%;
-               justify-content: space-evenly;
-               padding: $mn/3 0px;
-               img {
-                    width: 9.5%;
-               }
-          }
-          .categoryColor {
-               position: relative;
-               height: $mn/4;
-               width: 100%;
-               border-bottom-right-radius: 10px;
-               border-bottom-left-radius: 10px;
-               div {
-                    height: 100%;
-                    width: 100%;
-                    border-bottom-right-radius: 10px;
-                    border-bottom-left-radius: 10px;
-               }
-          }
-     }
+          border-bottom-right-radius: 10px;
+          border-bottom-left-radius: 10px;
+        }
+      }
+    }
+  }
 }
