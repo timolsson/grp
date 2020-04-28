@@ -3,7 +3,7 @@
 .filter {
      display: flex;
      justify-content: space-between;
-     padding: $mn $mn/4;
+     padding: $mn/4 0 $mn/4 0;
 
      select {
           display: block;
@@ -12,5 +12,15 @@
           width: 24%;
           border-radius: 5px;
           color: $ColorRock;
+     }
+}
+.blobs {
+     display: flex;
+     .blobButton {
+          border: none;
+          border-radius: 50px;
+          background: lightcoral;
+          padding: $mn/6 $mn/2;
+          margin: 0 $mn/8 0 0;
      }
 }

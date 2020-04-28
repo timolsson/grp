@@ -13,12 +13,20 @@ const Filter = ({ setFilter }) => {
      const [filterBlobs, setFilterBlobs] = useState();
 
      useEffect(() => {
+          let dataArray = [];
+          for (let o in Router.router.query) {
+               dataArray.push(Router.router.query[o]);
+          }
+          setFilterBlobs(dataArray);
+     }, []);
+
+     useEffect(() => {
           Router.events.on('routeChangeComplete', () => {
                let dataArray = [];
                for (let o in Router.router.query) {
                     dataArray.push(Router.router.query[o]);
                }
-               console.log(dataArray);
+               setFilterBlobs(dataArray);
           });
      }, []);
 
@@ -27,39 +35,39 @@ const Filter = ({ setFilter }) => {
                if (prevMainArea) {
                     delete filters[prevMainArea];
                }
-               filters = {
-                    ...filters,
-                    [mainArea.current.value]: '1',
-               };
+               filters[mainArea.current.value] = '1';
 
                pushToRouter(filters);
                prevMainArea = mainArea.current.value;
           });
           region.current.addEventListener('change', () => {
-               filters = {
-                    ...filters,
-                    main_geographic_focus: region.current.value,
-               };
+               filters.main_geographic_focus = region.current.value;
                pushToRouter(filters);
           });
           type.current.addEventListener('change', () => {
-               filters = {
-                    ...filters,
-                    type: type.current.value,
-               };
+               filters.type = type.current.value;
                pushToRouter(filters);
           });
           sector.current.addEventListener('change', () => {
-               filters = {
-                    ...filters,
-                    sector: sector.current.value,
-               };
+               filters.sector = sector.current.value;
                pushToRouter(filters);
           });
      }, []);
 
-     const pushToRouter = (filters) => {
-          Router.push({ pathname: '/', query: filters });
+     const pushToRouter = (o) => {
+          Router.push({ pathname: '/', query: o });
+     };
+
+     const removeBlob = (f) => {
+          filters = Router.router.query;
+          console.log(filters);
+          Object.keys(Router.router.query).forEach((key) => {
+               if (Router.router.query[key] === f) {
+                    delete filters[key];
+               }
+          });
+          console.log(filters);
+          pushToRouter(filters);
      };
 
      return (
@@ -114,13 +122,23 @@ const Filter = ({ setFilter }) => {
                          <option>CSO</option>
                     </select>
                </div>
-               {/* <div className={style.blobs}>
+               <div className={style.blobs}>
                     {filterBlobs
-                         ? filterBlobs.map((f) => {
-                                return <h1>{f}</h1>;
+                         ? filterBlobs.map((f, i) => {
+                                return (
+                                     <button
+                                          key={i}
+                                          className={style.blobButton}
+                                          onClick={() => {
+                                               removeBlob(f);
+                                          }}
+                                     >
+                                          {f}
+                                     </button>
+                                );
                            })
                          : ''}
-               </div> */}
+               </div>
           </div>
      );
 };
