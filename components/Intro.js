@@ -13,22 +13,29 @@ const Intro = () => {
   //      });
   // }, []);
 
-  return (
-    <div>
-      <button
-        ref={button}
-        className={style.button}
-        onClick={() => {
-          setToggle(!toggle);
-        }}
-      >
-        {toggle ? "x" : "intro"}
-      </button>
-      {/* <input type="checkbox" className={style.button} /> */}
-      {/* <label for="checkbox">Click me</label> */}
-      {toggle ? (
-        <div ref={intro} className={style.intro}>
-          <h1>Mapping of Global and Regional Funds, Networks and Programmes</h1>
+     return (
+          <div>
+               <button
+                    ref={button}
+                    className={style.button}
+                    style={{
+                         marginRight: toggle ? '' : '6px',
+                         marginTop: toggle ? '' : '1px',
+                    }}
+                    onClick={() => {
+                         setToggle(!toggle);
+                    }}
+               >
+                    {toggle ? 'x' : 'Info'}
+               </button>
+               {/* <input type="checkbox" className={style.button} /> */}
+               {/* <label for="checkbox">Click me</label> */}
+               {toggle ? (
+                    <div ref={intro} className={style.intro}>
+                         <h1>
+                              Mapping of Global and Regional Funds, Networks and
+                              Programmes
+                         </h1>
 
           <p>
             GRP has undertaken a{" "}

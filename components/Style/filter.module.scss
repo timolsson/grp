@@ -3,7 +3,7 @@
 .filter {
      display: flex;
      justify-content: space-between;
-     padding: $mn/4 0 $mn/4 0;
+     padding: $mn/1.5 0 $mn/10 0;
 
      select {
           display: block;
@@ -21,6 +21,6 @@
           border-radius: 50px;
           background: lightcoral;
           padding: $mn/6 $mn/2;
-          margin: 0 $mn/8 0 0;
+          margin: $mn/10 $mn/8 0 0;
      }
 }
