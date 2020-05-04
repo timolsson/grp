@@ -2,7 +2,7 @@ import style from './Style/initiativeCard.module.scss';
 import { useRef, useEffect, useState } from 'react';
 import { useSpring, animated } from 'react-spring';
 
-const InitiativeCard = ({ data, isFlipped }) => {
+const InitiativeCard = ({ data }) => {
      const policy = useRef();
      const knowledge = useRef();
      const money = useRef();
