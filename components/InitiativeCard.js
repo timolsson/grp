@@ -21,7 +21,7 @@ const InitiativeCard = ({ data }) => {
      url = url.indexOf('://') > -1 ? url.split('://')[1] : url;
      url = url.indexOf('/') > -1 ? url.split('/')[0] : url;
 
-     url = url.length < 1 ? '🙅🏼‍♂️' : url;
+     url = url.length < 1 ? '' : url;
 
      useEffect(() => {
           data.policy_planning !== '1'
