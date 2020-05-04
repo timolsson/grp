@@ -2,4 +2,7 @@
 
 .root {
      padding: 0 $mn/2;
+     max-width: $mn * 25;
+     margin: $mn / 2 auto;
+     width: auto;
 }
