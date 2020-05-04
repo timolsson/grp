@@ -2,7 +2,7 @@ import style from './Style/initiativeCard.module.scss';
 import { useRef, useEffect, useState } from 'react';
 import { useSpring, animated } from 'react-spring';
 
-const InitiativeCard = ({ data }) => {
+const InitiativeCard = ({ data, isFlipped }) => {
      const policy = useRef();
      const knowledge = useRef();
      const money = useRef();
@@ -15,6 +15,10 @@ const InitiativeCard = ({ data }) => {
      });
 
      const [bgColor, setBgColor] = useState();
+
+     // const applyFlip = () => {
+     //      setFlipped(!flipped);
+     // };
 
      let url =
           data.url.indexOf('www.') > -1 ? data.url.split('www.')[1] : data.url;
@@ -78,6 +82,7 @@ const InitiativeCard = ({ data }) => {
                     <h1 className={style.title}>{data.name}</h1>
                     <a href={data.url}>{url}</a>
                     <p>{data.summary}</p>
+                    <p>&#8594;</p>
                </animated.div>
 
                <animated.div
@@ -91,8 +96,10 @@ const InitiativeCard = ({ data }) => {
                >
                     <h1 className={style.title}>{data.name}</h1>
                     <a href={data.url}>{url}</a>
-                    <p>{data.summary}</p>
-                    <p className={style.readMore}>Read more</p>
+                    {/* <p>{data.summary}</p> */}
+
+                    <p className={style.readMore}>Read more &#8594;</p>
+
                     <div className={style.gradient} />
                     <div className={style.bottomCard}>
                          <div className={style.icons}>
