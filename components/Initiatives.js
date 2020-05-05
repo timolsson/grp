@@ -1,3 +1,7 @@
+/* Renders the initiative cards from InitiativeCard.js
+Maps and filter all the initiatives. Sends correct route to the Next router.
+Default view is all initiatives shown. */
+
 import rawInitiatives from '../assets/initiatives.json';
 import style from './Style/initiatives.module.scss';
 import InitiativeCard from './InitiativeCard';

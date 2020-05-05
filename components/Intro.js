@@ -1,8 +1,9 @@
+/* Adds introductory text and explanation to the page. Onclick event and toggle used to close/open the intro text */
 
-import style from './Style/intro.module.scss';
-import { useRef, useEffect, useState } from 'react';
-import Link from 'next/link';
-import Aos from 'aos';
+import style from "./Style/intro.module.scss";
+import { useRef, useEffect, useState } from "react";
+import Link from "next/link";
+import Aos from "aos";
 
 const Intro = () => {
   const button = useRef();
@@ -10,15 +11,14 @@ const Intro = () => {
 
   const [toggle, setToggle] = useState(true);
 
-
-     // useEffect(() => {
-     // button.current.addEventListener('click', () => {
-     // setToggle(!toggle);
-     //      });
-     // }, [])
-     useEffect(() => {
-          Aos.init({ duration: 500 });
-     }, []);
+  // useEffect(() => {
+  // button.current.addEventListener('click', () => {
+  // setToggle(!toggle);
+  //      });
+  // }, [])
+  useEffect(() => {
+    Aos.init({ duration: 500 });
+  }, []);
 
   // useEffect(() => {
   // button.current.addEventListener('click', () => {
@@ -26,48 +26,40 @@ const Intro = () => {
   //      });
   // }, []);
 
-
-     return (
-          <div>
-               <button
-                    ref={button}
-                    className={style.showButton}
-                    style={!toggle ? { display: 'block' } : { display: 'none' }}
-                    // style={{
-                    //      marginRight: toggle ? '' : '6px',
-                    //      marginTop: toggle ? '' : '1px',
-                    // }}
-                    onClick={() => {
-                         setToggle(!toggle);
-                    }}
-               >
-                    {toggle ? 'x' : 'Info'}
-               </button>
-               {/* <input type="checkbox" className={style.button} /> */}
-               {/* <label for="checkbox">Click me</label> */}
-               {toggle ? (
-                    <div
-                         ref={intro}
-                         className={style.intro}
-                         data-aos="slide-up"
-                    >
-                         <button
-                              ref={button}
-                              className={style.button}
-                              style={{
-                                   marginRight: toggle ? '' : '6px',
-                                   marginTop: toggle ? '' : '1px',
-                              }}
-                              onClick={() => {
-                                   setToggle(!toggle);
-                              }}
-                         >
-                              {toggle ? 'x' : 'Info'}
-                         </button>
-                         <h1>
-                              Mapping of Global and Regional Funds, Networks and
-                              Programmes
-                         </h1>
+  return (
+    <div>
+      <button
+        ref={button}
+        className={style.showButton}
+        style={!toggle ? { display: "block" } : { display: "none" }}
+        // style={{
+        //      marginRight: toggle ? '' : '6px',
+        //      marginTop: toggle ? '' : '1px',
+        // }}
+        onClick={() => {
+          setToggle(!toggle);
+        }}
+      >
+        {toggle ? "x" : "Info"}
+      </button>
+      {/* <input type="checkbox" className={style.button} /> */}
+      {/* <label for="checkbox">Click me</label> */}
+      {toggle ? (
+        <div ref={intro} className={style.intro} data-aos="slide-up">
+          <button
+            ref={button}
+            className={style.button}
+            style={{
+              marginRight: toggle ? "" : "6px",
+              marginTop: toggle ? "" : "1px",
+            }}
+            onClick={() => {
+              setToggle(!toggle);
+            }}
+          >
+            {toggle ? "x" : "Info"}
+          </button>
+          <h1>Mapping of Global and Regional Funds, Networks and Programmes</h1>
 
           <p>
             GRP has undertaken a{" "}
