@@ -8,6 +8,9 @@
      height: $mn * 5.5;
      margin: $mn/4;
      cursor: pointer;
+     @media screen and (max-width: 400px) {
+          min-width: 250px;
+     }
      .front,
      .back {
           background-color: $ColorAsh;
