@@ -1,25 +1,11 @@
-const getRefactoredJSON = (json) => {
+export const getRefactoredJSON = (json) => {
   let refactoredJSON = [...json].map((initiative) => {
-    const areas = [
-      "policy_planning",
-      "knowledge_learning",
-      "finance_budgets",
-      "practice_innovation",
-    ];
-    const areasName = [
-      "Policy Planning",
-      "Knowledge Learning",
-      "Finance Budgets",
-      "Practice Innovation",
-    ];
-
     let mainAreas = [];
 
-    areas.forEach((area, i) => {
-      if (initiative[area] === "1") {
-        mainAreas.push(areasName[i]);
+    MAIN_AREAS_OF_WORK.forEach((area, i) => {
+      if (initiative[area.raw] === "1") {
+        mainAreas.push(area.name);
       }
-      delete initiative[area];
     });
 
     return { ...initiative, mainAreas: mainAreas };
@@ -27,4 +13,9 @@ const getRefactoredJSON = (json) => {
   return refactoredJSON;
 };
 
-export default getRefactoredJSON;
+export const MAIN_AREAS_OF_WORK = [
+  { raw: "policy_planning", name: "Policy & Planning" },
+  { raw: "knowledge_learning", name: "Knowledge & Learning" },
+  { raw: "finance_budgets", name: "Finance & Budget" },
+  { raw: "practice_innovation", name: "Practice & Innovation" },
+];

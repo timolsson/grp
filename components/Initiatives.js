@@ -4,27 +4,26 @@ import InitiativeCard from "./InitiativeCard";
 import Filter from "./Filter";
 import Router from "next/router";
 import { useState, useEffect, useRef } from "react";
-import getRefactoredJSON from "../utils/util";
+import { getRefactoredJSON } from "../utils/util";
 
 /* Renders the initiative cards from InitiativeCard.js
 Maps and filter all the initiatives. Sends correct route to the Next router.
 Default view is all initiatives shown. */
 
 const Initiatives = ({}) => {
-  const [initiatives, setInitiatives] = useState(rawInitiatives);
-
-  console.log(getRefactoredJSON(rawInitiatives));
+  const [initiatives, setInitiatives] = useState(
+    getRefactoredJSON(rawInitiatives)
+  );
 
   useEffect(() => {
     Router.events.on("routeChangeComplete", (url) => {
       setInitiatives(
-        rawInitiatives.filter((item) => {
+        getRefactoredJSON(rawInitiatives).filter((item) => {
           for (var key in Router.router.query) {
-            if (
-              item[key] === undefined ||
-              item[key] != Router.router.query[key]
-            )
-              return false;
+            if (key === "mainArea") {
+              if (!item.mainAreas.includes(Router.router.query[key]))
+                return false;
+            } else if (item[key] !== Router.router.query[key]) return false;
           }
           return true;
         })
