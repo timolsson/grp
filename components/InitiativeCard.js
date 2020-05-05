@@ -1,3 +1,5 @@
+/* Returns a card with set data. */
+
 import style from "./Style/initiativeCard.module.scss";
 import { useRef, useEffect, useState } from "react";
 import { useSpring, animated } from "react-spring";

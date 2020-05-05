@@ -1,3 +1,7 @@
+/* The filter uses Next.js Router method(?) to change the url of the page depending on the filter applied. 
+The filter allows the user to change Main Area of Work, Region, Type, Sector. 
+To remove filters the user can click the “blobs” that are visible once a filter is selected. */
+
 import { useRef, useEffect, useState } from "react";
 import Router from "next/router";
 import style from "./Style/filter.module.scss";
