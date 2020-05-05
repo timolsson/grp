@@ -1,3 +1,5 @@
+/* Returns a card with set data. */
+
 import style from "./Style/initiativeCard.module.scss";
 import { useRef, useEffect, useState } from "react";
 import { useSpring, animated } from "react-spring";
@@ -80,7 +82,9 @@ const InitiativeCard = ({ data }) => {
         }}
       >
         <h1 className={style.title}>{data.name}</h1>
-        <a target="_blank" href={data.url}>{url}</a>
+        <a target="_blank" href={data.url}>
+          {url}
+        </a>
         <p>{data.summary}</p>
         <p>&#8594;</p>
       </animated.div>
@@ -94,8 +98,20 @@ const InitiativeCard = ({ data }) => {
       >
         <h1 className={style.title}>{data.name}</h1>
         <a target="_blank" href={data.url}>
+          <span className={style.description}>Website: </span>
+          <br />
           {url}
         </a>
+        <p className={style.host}>
+          <span className={style.description}>Host: </span>
+          <br />
+          {data.host}
+        </p>
+        <p className={style.mainSponsor}>
+          <span className={style.description}>Main Sponsor: </span>
+          <br />
+          {data.main_sponsor}
+        </p>
         {/* <p>{data.summary}</p> */}
 
         <p className={style.readMore}>Read more &#8594;</p>

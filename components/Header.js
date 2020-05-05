@@ -1,3 +1,4 @@
+/* Top page navigation and logo */
 import style from "./Style/header.module.scss"
 
 const Header = () => {

@@ -4,10 +4,11 @@ import InitiativeCard from "./InitiativeCard";
 import Filter from "./Filter";
 import Router from "next/router";
 import { useState, useEffect, useRef } from "react";
-
 import getRefactoredJSON from "../utils/util";
 
-// }, []);
+/* Renders the initiative cards from InitiativeCard.js
+Maps and filter all the initiatives. Sends correct route to the Next router.
+Default view is all initiatives shown. */
 
 const Initiatives = ({}) => {
   const [initiatives, setInitiatives] = useState(rawInitiatives);
