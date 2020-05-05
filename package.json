@@ -1,26 +1,27 @@
 {
-  "name": "grp",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "next"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/strazan/grp.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/strazan/grp/issues"
-  },
-  "homepage": "https://github.com/strazan/grp#readme",
-  "dependencies": {
-    "next": "^9.3.6",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-spring": "^8.0.27",
-    "sass": "^1.26.5"
-  }
-}
+
+     "name": "grp",
+     "version": "1.0.0",
+     "description": "",
+     "main": "index.js",
+     "scripts": {
+          "dev": "next"
+     },
+     "repository": {
+          "type": "git",
+          "url": "git+https://github.com/strazan/grp.git"
+     },
+     "author": "",
+     "license": "ISC",
+     "bugs": {
+          "url": "https://github.com/strazan/grp/issues"
+     },
+     "homepage": "https://github.com/strazan/grp#readme",
+     "dependencies": {
+          "aos": "^3.0.0-beta.6",
+          "next": "^9.3.5",
+          "react": "^16.13.1",
+          "react-dom": "^16.13.1",
+          "react-spring": "^8.0.27",
+          "sass": "^1.26.3"
+     }

@@ -16,6 +16,10 @@ const InitiativeCard = ({ data }) => {
 
      const [bgColor, setBgColor] = useState();
 
+     // const applyFlip = () => {
+     //      setFlipped(!flipped);
+     // };
+
      let url =
           data.url.indexOf('www.') > -1 ? data.url.split('www.')[1] : data.url;
      url = url.indexOf('://') > -1 ? url.split('://')[1] : url;
@@ -78,6 +82,7 @@ const InitiativeCard = ({ data }) => {
                     <h1 className={style.title}>{data.name}</h1>
                     <a href={data.url}>{url}</a>
                     <p>{data.summary}</p>
+                    <p>&#8594;</p>
                </animated.div>
 
                <animated.div
@@ -91,8 +96,10 @@ const InitiativeCard = ({ data }) => {
                >
                     <h1 className={style.title}>{data.name}</h1>
                     <a href={data.url}>{url}</a>
-                    <p>{data.summary}</p>
-                    <p className={style.readMore}>Read more</p>
+                    {/* <p>{data.summary}</p> */}
+
+                    <p className={style.readMore}>Read more &#8594;</p>
+
                     <div className={style.gradient} />
                     <div className={style.bottomCard}>
                          <div className={style.icons}>

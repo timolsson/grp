@@ -6,7 +6,7 @@
      width: auto;
      flex-wrap: wrap;
      flex-direction: column;
-     height: min-content;
+
      margin: $mn/4 0 0 0;
      padding: $mn/4 $mn/3;
      // border-radius: 5px;
@@ -16,6 +16,15 @@
      transition: 0.5s all ease;
      @media only screen and (min-width: 1200px) {
           // padding: $mn/2 $mn/3;
+     }
+     .button {
+          margin-left: auto;
+          background: none;
+          color: grey;
+          font-size: 1rem;
+          position: relative;
+          z-index: 100;
+          border: 1px solid grey;
      }
      h1,
      p {
@@ -56,14 +65,16 @@
           color: #58595b;
      }
 }
-.button {
-     margin: $mn/3;
+
+.showButton {
+     display: none;
+     margin-left: auto;
      background: none;
+     margin-right: $mn/4.5;
+     margin-top: $mn/1.25;
      color: grey;
      font-size: 1rem;
-     position: absolute;
-     right: 1.5rem;
-     top: 5rem;
+     position: relative;
      z-index: 100;
      border: 1px solid grey;
 }

@@ -1,11 +1,24 @@
-import style from "./Style/intro.module.scss";
-import { useRef, useEffect, useState } from "react";
-import Link from "next/link";
+
+import style from './Style/intro.module.scss';
+import { useRef, useEffect, useState } from 'react';
+import Link from 'next/link';
+import Aos from 'aos';
+
 const Intro = () => {
   const button = useRef();
   const intro = useRef();
 
   const [toggle, setToggle] = useState(true);
+
+
+     // useEffect(() => {
+     // button.current.addEventListener('click', () => {
+     // setToggle(!toggle);
+     //      });
+     // }, [])
+     useEffect(() => {
+          Aos.init({ duration: 500 });
+     }, []);
 
   // useEffect(() => {
   // button.current.addEventListener('click', () => {
@@ -13,15 +26,17 @@ const Intro = () => {
   //      });
   // }, []);
 
+
      return (
           <div>
                <button
                     ref={button}
-                    className={style.button}
-                    style={{
-                         marginRight: toggle ? '' : '6px',
-                         marginTop: toggle ? '' : '1px',
-                    }}
+                    className={style.showButton}
+                    style={!toggle ? { display: 'block' } : { display: 'none' }}
+                    // style={{
+                    //      marginRight: toggle ? '' : '6px',
+                    //      marginTop: toggle ? '' : '1px',
+                    // }}
                     onClick={() => {
                          setToggle(!toggle);
                     }}
@@ -31,7 +46,24 @@ const Intro = () => {
                {/* <input type="checkbox" className={style.button} /> */}
                {/* <label for="checkbox">Click me</label> */}
                {toggle ? (
-                    <div ref={intro} className={style.intro}>
+                    <div
+                         ref={intro}
+                         className={style.intro}
+                         data-aos="slide-up"
+                    >
+                         <button
+                              ref={button}
+                              className={style.button}
+                              style={{
+                                   marginRight: toggle ? '' : '6px',
+                                   marginTop: toggle ? '' : '1px',
+                              }}
+                              onClick={() => {
+                                   setToggle(!toggle);
+                              }}
+                         >
+                              {toggle ? 'x' : 'Info'}
+                         </button>
                          <h1>
                               Mapping of Global and Regional Funds, Networks and
                               Programmes
