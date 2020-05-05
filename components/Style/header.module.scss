@@ -1,31 +1,32 @@
-@import '../../base/index.scss';
+@import "../../base/index.scss";
 
 .header {
-     box-shadow: 0 0 10px #0004;
-     display: flex;
-     width: 100%;
-     padding: $mn/4 $mn/6;
-     height: $mn * 1.2;
-     align-items: center;
-     .LogInButton {
-          margin-left: auto;
-     }
-     h1,
-     button {
-          @include FontLarge;
-          margin: 0px $mn/3;
-     }
-     button {
-          padding: $mn/10 $mn/3;
-          border: 0;
-          border-radius: 5px;
-          background-color: #eaf5fb;
-          color: #009ede;
-          @include FontNormal;
-     }
+  box-shadow: 0 0 10px #0004;
+  display: flex;
+  width: 100%;
+  padding: $mn/4 $mn/6;
+  height: $mn * 1.2;
+  align-items: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  .LogInButton {
+    margin-left: auto;
+  }
+  h1,
+  button {
+    @include FontLarge;
+    margin: 0px $mn/3;
+  }
+  button {
+    padding: $mn/10 $mn/3;
+    border: 0;
+    border-radius: 5px;
+    background-color: #eaf5fb;
+    color: #009ede;
+    @include FontNormal;
+  }
 
-     img {
-          height: 100%;
-          margin-left: $mn/3;
-     }
+  img {
+    height: 100%;
+    margin-left: $mn/3;
+  }
 }
