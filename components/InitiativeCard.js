@@ -1,12 +1,15 @@
+/* Returns a card with set data. */
+
 import style from './Style/initiativeCard.module.scss';
 import { useRef, useEffect, useState } from 'react';
 import { useSpring, animated } from 'react-spring';
+import { MAIN_AREAS_OF_WORK } from '../utils/util';
 
-const InitiativeCard = ({ data, isFlipped }) => {
-     const policy = useRef();
-     const knowledge = useRef();
-     const money = useRef();
-     const idea = useRef();
+const InitiativeCard = ({ data }) => {
+     const policy_planning = useRef();
+     const knowledge_learning = useRef();
+     const finance_budgets = useRef();
+     const practice_innovation = useRef();
      const [flipped, setFlipped] = useState(true);
      const { transform, opacity } = useSpring({
           opacity: flipped ? 1 : 0,
@@ -23,20 +26,20 @@ const InitiativeCard = ({ data, isFlipped }) => {
 
      url = url.length < 1 ? '' : url;
 
-     useEffect(() => {
-          data.policy_planning !== '1'
-               ? (policy.current.style.opacity = '0.3')
-               : (policy.current.style.opacity = '1');
-          data.knowledge_learning !== '1'
-               ? (knowledge.current.style.opacity = '0.3')
-               : (knowledge.current.style.opacity = '1');
-          data.finance_budgets !== '1'
-               ? (money.current.style.opacity = '0.3')
-               : (money.current.style.opacity = '1');
-          data.practice_innovation !== '1'
-               ? (idea.current.style.opacity = '0.3')
-               : (idea.current.style.opacity = '1');
-     }, [data]);
+     // useEffect(() => {
+     //      data.policy_planning !== '1'
+     //           ? (policy.current.style.opacity = '0.3')
+     //           : (policy.current.style.opacity = '1');
+     //      data.knowledge_learning !== '1'
+     //           ? (knowledge.current.style.opacity = '0.3')
+     //           : (knowledge.current.style.opacity = '1');
+     //      data.finance_budgets !== '1'
+     //           ? (money.current.style.opacity = '0.3')
+     //           : (money.current.style.opacity = '1');
+     //      data.practice_innovation !== '1'
+     //           ? (idea.current.style.opacity = '0.3')
+     //           : (idea.current.style.opacity = '1');
+     // }, [data]);
 
      useEffect(() => {
           switch (data.main_geographic_focus) {
@@ -60,6 +63,37 @@ const InitiativeCard = ({ data, isFlipped }) => {
                     break;
           }
      }, []);
+     useEffect(() => {
+          MAIN_AREAS_OF_WORK.forEach((area) => {
+               const isArea = !data.mainAreas.includes(area.name);
+               switch (area.name) {
+                    case 'Policy & Planning':
+                         isArea
+                              ? (policy_planning.current.style.opacity = '0.3')
+                              : (policy_planning.current.style.opacity = '1');
+                         break;
+                    case 'Knowledge & Learning':
+                         isArea
+                              ? (knowledge_learning.current.style.opacity =
+                                     '0.3')
+                              : (knowledge_learning.current.style.opacity =
+                                     '1');
+                         break;
+                    case 'Finance & Budgets':
+                         isArea
+                              ? (finance_budgets.current.style.opacity = '0.3')
+                              : (finance_budgets.current.style.opacity = '1');
+                         break;
+                    case 'Practice & Innovation':
+                         isArea
+                              ? (practice_innovation.current.style.opacity =
+                                     '0.3')
+                              : (practice_innovation.current.style.opacity =
+                                     '1');
+                         break;
+               }
+          });
+     }, [data]);
 
      return (
           <div
@@ -94,19 +128,42 @@ const InitiativeCard = ({ data, isFlipped }) => {
                >
                     <h1 className={style.title}>{data.name}</h1>
                     <a target="_blank" href={data.url}>
+                         <span className={style.description}>Website: </span>
+                         <br />
                          {url}
                     </a>
+                    <p className={style.host}>
+                         <span className={style.description}>Host: </span>
+                         <br />
+                         {data.host}
+                    </p>
+                    <p className={style.mainSponsor}>
+                         <span className={style.description}>
+                              Main Sponsor:{' '}
+                         </span>
+                         <br />
+                         {data.main_sponsor}
+                    </p>
                     {/* <p>{data.summary}</p> */}
 
                     <p className={style.readMore}>Read more &#8594;</p>
 
-                    <div className={style.gradient} />
+                    {/* <div className={style.gradient} /> */}
                     <div className={style.bottomCard}>
                          <div className={style.icons}>
-                              <img ref={policy} src="/policy.png"></img>
-                              <img ref={knowledge} src="/knowledge.png"></img>
-                              <img ref={money} src="/money.png"></img>
-                              <img ref={idea} src="/idea.png"></img>
+                              <img
+                                   ref={policy_planning}
+                                   src="/policy.png"
+                              ></img>
+                              <img
+                                   ref={knowledge_learning}
+                                   src="/knowledge.png"
+                              ></img>
+                              <img ref={finance_budgets} src="/money.png"></img>
+                              <img
+                                   ref={practice_innovation}
+                                   src="/idea.png"
+                              ></img>
                          </div>
                          <div className={style.categoryColor}>
                               <div className={style[bgColor]}></div>

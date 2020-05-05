@@ -10,20 +10,10 @@ const Intro = () => {
 
      const [toggle, setToggle] = useState(true);
 
-     // useEffect(() => {
-     // button.current.addEventListener('click', () => {
-     // setToggle(!toggle);
-     //      });
-     // }, [])
      useEffect(() => {
           Aos.init({ duration: 500 });
      }, []);
 
-     // useEffect(() => {
-     // button.current.addEventListener('click', () => {
-     // setToggle(!toggle);
-     //      });
-     // }, []);
      const handleClick = () => {
           setToggle(!toggle);
      };

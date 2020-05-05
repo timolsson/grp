@@ -1,3 +1,7 @@
+/* The filter uses Next.js Router method(?) to change the url of the page depending on the filter applied. 
+The filter allows the user to change Main Area of Work, Region, Type, Sector. 
+To remove filters the user can click the “blobs” that are visible once a filter is selected. */
+
 import { useRef, useEffect, useState } from "react";
 import Router from "next/router";
 import style from "./Style/filter.module.scss";
@@ -9,7 +13,6 @@ const Filter = ({ setFilter }) => {
   const sector = useRef();
 
   let filters = {};
-  let prevMainArea;
   const [filterBlobs, setFilterBlobs] = useState();
 
   useEffect(() => {
@@ -44,13 +47,8 @@ const Filter = ({ setFilter }) => {
   }, [filters]);
 
   const handleMainAreaChange = () => {
-    if (prevMainArea) {
-      delete filters[prevMainArea];
-    }
-    filters[mainArea.current.value] = "1";
-
+    filters.mainArea = mainArea.current.value;
     pushToRouter(filters);
-    prevMainArea = mainArea.current.value;
   };
 
   const handleRegionChange = () => {
@@ -70,19 +68,19 @@ const Filter = ({ setFilter }) => {
 
   const pushToRouter = (o) => {
     const filt = { ...Router.router.query, ...o };
-    console.log(o);
+
     Router.push({ pathname: "/", query: filt });
   };
 
   const removeBlob = (f) => {
     filters = Router.router.query;
-    console.log(filters);
+
     Object.keys(Router.router.query).forEach((key) => {
       if (Router.router.query[key] === f) {
         delete filters[key];
       }
     });
-    console.log(filters);
+
     Router.push({ pathname: "/", query: filters });
   };
 
@@ -94,9 +92,9 @@ const Filter = ({ setFilter }) => {
       sector.current,
     ];
     filterOptions.forEach((select) => {
+      console.log(filterOptions);
       let match = [...select.children].filter((option) => {
-        // console.log(option.innerHTML);
-        return option.innerHTML === text;
+        return option.value === text;
       });
       if (match[0]) {
         console.log(match[0]);
@@ -112,10 +110,10 @@ const Filter = ({ setFilter }) => {
           <option value="" defaultValue hidden>
             Main Area of Work
           </option>
-          <option value="policy_planning">Policy & Planning</option>
-          <option value="knowledge_learning">Knowledge & Learning</option>
-          <option value="finance_budgets">Finance & Budget</option>
-          <option value="practice_innovation">Innovation & Practice</option>
+          <option>Policy & Planning</option>
+          <option>Knowledge & Learning</option>
+          <option>Finance & Budget</option>
+          <option>Practice & Innovation</option>
         </select>
 
         <select ref={region}>
