@@ -1,18 +1,18 @@
-@import "../../base/index.scss";
+@import '../../base/index.scss';
 
 .heroCard {
-    background-color: $ColorGreen;
-    color: $ColorWhite;
-    flex-grow: 1;
-    width: 30%;
-    padding: $mn/3;
-    margin: $mn/6.5;
+     background-color: $ColorGreen;
+     color: $ColorWhite;
+     flex-grow: 1;
+     width: 30%;
+     padding: $mn/3;
+     margin: $mn/6.5;
 
-    h1 {
-         @include FontHeadline;
-    }
+     h1 {
+          @include FontHeadline;
+     }
 
-    h6 {
-        @include FontLarge;
-    }
+     h6 {
+          @include FontLarge;
+     }
 }
