@@ -3,6 +3,7 @@ import rawInitiatives from '../assets/initiatives.json';
 import HeroCard from './HeroCard';
 import { useEffect, useRef, useState } from 'react';
 import Toggle from './Toggle';
+import Aos from 'aos';
 
 const Hero = () => {
      let arr = rawInitiatives;
@@ -56,6 +57,10 @@ const Hero = () => {
           setToggle(!toggle);
      };
 
+     useEffect(() => {
+          Aos.init({ duration: 500 });
+     }, []);
+
      return (
           <div>
                <Toggle
@@ -63,7 +68,7 @@ const Hero = () => {
                     toggleTitle="Geographic Distribution"
                />
                {toggle ? (
-                    <div className={style.hero}>
+                    <div className={style.hero} data-aos="fade-down">
                          {cardData.map((data, i) => {
                               return (
                                    <HeroCard

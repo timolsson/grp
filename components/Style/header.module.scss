@@ -3,6 +3,7 @@
 .header {
      box-shadow: 0 0 10px #0004;
      display: flex;
+     z-index: 100000;
      width: 100%;
      padding: $mn/4 $mn/6;
      min-height: $mn * 1.2;

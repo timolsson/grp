@@ -36,7 +36,7 @@ const Intro = () => {
                     <div
                          ref={intro}
                          className={style.intro}
-                         data-aos="slide-up"
+                         data-aos="fade-down"
                     >
                          <h1>
                               Mapping of Global and Regional Funds, Networks and
