@@ -22,8 +22,6 @@ const Initiatives = ({}) => {
         getRefactoredJSON(rawInitiatives).filter((item) => {
           for (var key in Router.router.query) {
             if (key === "search") {
-              console.log(Router.router.query[key]);
-              console.log(item.name.includes(Router.router.query[key]));
               if (
                 !item.name
                   .toLowerCase()
