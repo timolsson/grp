@@ -5,6 +5,7 @@ import Filter from "./Filter";
 import Router from "next/router";
 import { useState, useEffect, useRef } from "react";
 import { getRefactoredJSON } from "../utils/util";
+import Search from "./Search";
 
 /* Renders the initiative cards from InitiativeCard.js
 Maps and filter all the initiatives. Sends correct route to the Next router.
@@ -20,7 +21,16 @@ const Initiatives = ({}) => {
       setInitiatives(
         getRefactoredJSON(rawInitiatives).filter((item) => {
           for (var key in Router.router.query) {
-            if (key === "mainArea") {
+            if (key === "search") {
+              console.log(Router.router.query[key]);
+              console.log(item.name.includes(Router.router.query[key]));
+              if (
+                !item.name
+                  .toLowerCase()
+                  .includes(Router.router.query[key].toLowerCase())
+              )
+                return false;
+            } else if (key === "mainArea") {
               if (!item.mainAreas.includes(Router.router.query[key]))
                 return false;
             } else if (item[key] !== Router.router.query[key]) return false;
@@ -33,6 +43,7 @@ const Initiatives = ({}) => {
 
   return (
     <div>
+      <Search />
       <Filter />
       <div className={style.initiatives}>
         {initiatives.map((initiative, i) => {
