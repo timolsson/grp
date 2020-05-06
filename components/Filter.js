@@ -12,9 +12,14 @@ const Filter = ({ setFilter }) => {
   const type = useRef();
   const sector = useRef();
 
+  const filterOptions = [
+    mainArea.current,
+    region.current,
+    type.current,
+    sector.current,
+  ];
   let filters = {};
   const [filterBlobs, setFilterBlobs] = useState();
-
   useEffect(() => {
     let dataArray = [];
     for (let o in Router.router.query) {
@@ -85,12 +90,6 @@ const Filter = ({ setFilter }) => {
   };
 
   const resetDefaultValue = (text) => {
-    let filterOptions = [
-      mainArea.current,
-      region.current,
-      type.current,
-      sector.current,
-    ];
     filterOptions.forEach((select) => {
       let match = [...select.children].filter((option) => {
         return option.value === text;
@@ -101,6 +100,31 @@ const Filter = ({ setFilter }) => {
     });
   };
 
+  const getBlobColor = (text) => {
+    let color;
+    filterOptions.forEach((select) => {
+      let match = [...select.children].filter((option) => {
+        return option.value === text;
+      });
+      if (match[0]) {
+        switch (select[0].innerHTML) {
+          case "Main Area of Work":
+            color = "#eee";
+            break;
+          case "Main Geographic Focus":
+            color = "#ccc";
+            break;
+          case "Type":
+            color = "#aaa";
+            break;
+          case "Sector":
+            color = "#888";
+            break;
+        }
+      }
+    });
+    return color ? color : "#666";
+  };
   return (
     <div>
       <div className={style.filter}>
@@ -156,6 +180,7 @@ const Filter = ({ setFilter }) => {
                     removeBlob(blobText);
                     resetDefaultValue(blobText);
                   }}
+                  style={{ backgroundColor: getBlobColor(blobText) }}
                 >
                   <div>
                     {blobText}
