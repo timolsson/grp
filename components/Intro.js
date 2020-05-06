@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Aos from 'aos';
 import Toggle from './Toggle';
 
-const Intro = () => {
+const Intro = ({ setActiveToggle }) => {
      const button = useRef();
      const intro = useRef();
 
@@ -12,16 +12,15 @@ const Intro = () => {
 
      useEffect(() => {
           Aos.init({ duration: 500 });
+          setActiveToggle((s) => [...s, { click: handleClick, name: 'Intro' }]);
      }, []);
 
      const handleClick = () => {
-          setToggle(!toggle);
+          setToggle((toggle) => !toggle);
      };
 
      return (
           <div>
-               <Toggle click={handleClick} toggleTitle="Intro" />
-
                {toggle ? (
                     <div
                          ref={intro}

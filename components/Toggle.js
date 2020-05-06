@@ -4,7 +4,7 @@ import style from './style/toggle.module.scss';
 const Toggle = (props) => {
      //  const button = useRef();
      //  const [toggle, setToggle] = useState(true);
-
+     console.log(props.click);
      return (
           <div className={style.container}>
                <label class={style.switch}>
