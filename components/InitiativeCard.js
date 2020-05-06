@@ -19,6 +19,8 @@ const InitiativeCard = ({ data }) => {
 
      const [bgColor, setBgColor] = useState();
 
+     const [isShown, setIsShown] = useState(false);
+
      let url =
           data.url.indexOf('www.') > -1 ? data.url.split('www.')[1] : data.url;
      url = url.indexOf('://') > -1 ? url.split('://')[1] : url;
@@ -129,25 +131,32 @@ const InitiativeCard = ({ data }) => {
                     <div className={style.frontText}>
                          <div className={style.frontLeft}>
                               <a target="_blank" href={data.url}>
-                                   <span className={style.description}>
-                                        Website:{' '}
-                                   </span>
-                                   <br />
-                                   {url}
+                                   {url ? url : 'N/A'}
                               </a>
                               <p className={style.host}>
                                    <span className={style.description}>
                                         Host:{' '}
                                    </span>
                                    <br />
-                                   {data.host}
+                                   {data.host ? data.host : 'N/A'}
+                              </p>
+                              <p className={style.region}>
+                                   <span className={style.description}>
+                                        Region:{' '}
+                                   </span>
+                                   <br />
+                                   {data.main_geographic_focus
+                                        ? data.main_geographic_focus
+                                        : 'N/A'}
                               </p>
                               <p className={style.mainSponsor}>
                                    <span className={style.description}>
                                         Main Sponsor:{' '}
                                    </span>
                                    <br />
-                                   {data.main_sponsor}
+                                   {data.main_sponsor
+                                        ? data.main_sponsor
+                                        : 'N/A'}
                               </p>
                               {/* <p>{data.summary}</p> */}
                          </div>
@@ -180,19 +189,66 @@ const InitiativeCard = ({ data }) => {
                     {/* <div className={style.gradient} /> */}
                     <div className={style.bottomCard}>
                          <div className={style.icons}>
-                              <img
-                                   ref={policy_planning}
-                                   src="/policy.png"
-                              ></img>
-                              <img
-                                   ref={knowledge_learning}
-                                   src="/knowledge.png"
-                              ></img>
-                              <img ref={finance_budgets} src="/money.png"></img>
-                              <img
-                                   ref={practice_innovation}
-                                   src="/idea.png"
-                              ></img>
+                              <div className={style.wrapper}>
+                                   <img
+                                        ref={policy_planning}
+                                        src="/policy.png"
+                                        onMouseEnter={() => setIsShown(1)}
+                                        onMouseLeave={() => setIsShown(false)}
+                                   />
+                                   {isShown === 1 ? (
+                                        <div className={style.hover}>
+                                             Policy & Planning
+                                        </div>
+                                   ) : (
+                                        ''
+                                   )}
+                              </div>
+                              <div className={style.wrapper}>
+                                   <img
+                                        ref={knowledge_learning}
+                                        src="/knowledge.png"
+                                        onMouseEnter={() => setIsShown(2)}
+                                        onMouseLeave={() => setIsShown(false)}
+                                   />
+                                   {isShown === 2 ? (
+                                        <div className={style.hover}>
+                                             Knowledge & Learning
+                                        </div>
+                                   ) : (
+                                        ''
+                                   )}
+                              </div>
+                              <div className={style.wrapper}>
+                                   <img
+                                        ref={finance_budgets}
+                                        src="/money.png"
+                                        onMouseEnter={() => setIsShown(3)}
+                                        onMouseLeave={() => setIsShown(false)}
+                                   />
+                                   {isShown === 3 ? (
+                                        <div className={style.hover}>
+                                             Finance & Budgets
+                                        </div>
+                                   ) : (
+                                        ''
+                                   )}
+                              </div>
+                              <div className={style.wrapper}>
+                                   <img
+                                        ref={practice_innovation}
+                                        src="/idea.png"
+                                        onMouseEnter={() => setIsShown(4)}
+                                        onMouseLeave={() => setIsShown(false)}
+                                   />
+                                   {isShown === 4 ? (
+                                        <div className={style.hover}>
+                                             Practice & Innovation
+                                        </div>
+                                   ) : (
+                                        ''
+                                   )}
+                              </div>
                          </div>
                          <div className={style.categoryColor}>
                               <div className={style[bgColor]}></div>

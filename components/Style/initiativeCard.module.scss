@@ -48,10 +48,11 @@
           flex-direction: row;
      }
      .frontLeft {
-          width: 49%;
+          width: 60%;
           margin-right: auto;
-          height: 100%;
+          // border: 1px solid grey;
           position: relative;
+          overflow-y: scroll;
           .readMore {
                padding-top: $mn/2;
 
@@ -75,15 +76,17 @@
           a {
                width: min-content;
                display: block;
+               white-space: nowrap;
                text-decoration: none;
                padding: 0 0 $mn/6 0;
                @include FontNormal;
           }
      }
      .frontRight {
-          width: 35%;
+          width: 40%;
           position: relative;
           margin-right: auto;
+
           height: 100%;
           a {
                width: min-content;
@@ -105,7 +108,7 @@
                padding: 2px 4px;
                width: min-content;
                white-space: nowrap;
-               margin-left: auto;
+               // margin-left: auto;
                margin-top: $mn/5;
           }
      }
@@ -131,13 +134,27 @@
           position: absolute;
           left: 0;
           bottom: 0;
+
           .icons {
                display: flex;
                width: 100%;
                justify-content: space-evenly;
                padding: $mn/3 0px;
-               img {
+               .wrapper {
                     width: 9.5%;
+                    height: auto;
+                    position: relative;
+                    img {
+                         width: 100%;
+                    }
+                    .hover {
+                         position: absolute;
+                         @include FontNormal;
+                         opacity: 0.6;
+                         white-space: nowrap;
+                         left: 50%;
+                         transform: translateX(-50%);
+                    }
                }
           }
           .categoryColor {

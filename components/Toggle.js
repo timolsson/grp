@@ -1,14 +1,26 @@
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import style from './style/toggle.module.scss';
 
 const Toggle = (props) => {
      //  const button = useRef();
      //  const [toggle, setToggle] = useState(true);
-     console.log(props.click);
+     const input = useRef();
+
+     useEffect(() => {
+          input.current.checked != props.isToggled;
+     }, []);
+
      return (
           <div className={style.container}>
                <label class={style.switch}>
-                    <input type="checkbox" onClick={() => props.click()} />
+                    <input
+                         ref={input}
+                         type="checkbox"
+                         onClick={(e) => {
+                              props.click();
+                              console.log(e.currentTarget.checked);
+                         }}
+                    />
                     <span className={style.slider} />
                </label>
                <h5>{props.toggleTitle}</h5>

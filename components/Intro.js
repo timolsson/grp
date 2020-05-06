@@ -12,7 +12,10 @@ const Intro = ({ setActiveToggle }) => {
 
      useEffect(() => {
           Aos.init({ duration: 500 });
-          setActiveToggle((s) => [...s, { click: handleClick, name: 'Intro' }]);
+          setActiveToggle((s) => [
+               ...s,
+               { click: handleClick, name: 'Intro', isToggled: true },
+          ]);
      }, []);
 
      const handleClick = () => {

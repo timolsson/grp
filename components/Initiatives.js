@@ -11,7 +11,7 @@ import Search from './Search';
 Maps and filter all the initiatives. Sends correct route to the Next router.
 Default view is all initiatives shown. */
 
-const Initiatives = ({}) => {
+const Initiatives = ({ setActiveToggle }) => {
      const [initiatives, setInitiatives] = useState(
           getRefactoredJSON(rawInitiatives)
      );
@@ -21,7 +21,13 @@ const Initiatives = ({}) => {
                setInitiatives(
                     getRefactoredJSON(rawInitiatives).filter((item) => {
                          for (var key in Router.router.query) {
-                              if (key === 'search') {
+                              if (key === 'corona') {
+                                   if (Router.router.query[key] === 'true') {
+                                        if (item.active_corona !== '1') {
+                                             return false;
+                                        }
+                                   }
+                              } else if (key === 'search') {
                                    if (
                                         !item.name
                                              .toLowerCase()
@@ -51,7 +57,7 @@ const Initiatives = ({}) => {
      return (
           <div>
                <Search />
-               <Filter />
+               <Filter setActiveToggle={setActiveToggle} />
                <div className={style.initiatives}>
                     {initiatives.map((initiative, i) => {
                          return (
