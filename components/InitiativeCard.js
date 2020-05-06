@@ -26,20 +26,18 @@ const InitiativeCard = ({ data }) => {
 
      url = url.length < 1 ? '' : url;
 
-     // useEffect(() => {
-     //      data.policy_planning !== '1'
-     //           ? (policy.current.style.opacity = '0.3')
-     //           : (policy.current.style.opacity = '1');
-     //      data.knowledge_learning !== '1'
-     //           ? (knowledge.current.style.opacity = '0.3')
-     //           : (knowledge.current.style.opacity = '1');
-     //      data.finance_budgets !== '1'
-     //           ? (money.current.style.opacity = '0.3')
-     //           : (money.current.style.opacity = '1');
-     //      data.practice_innovation !== '1'
-     //           ? (idea.current.style.opacity = '0.3')
-     //           : (idea.current.style.opacity = '1');
-     // }, [data]);
+     let url_corona =
+          data.url_corona.indexOf('www.') > -1
+               ? data.url_corona.split('www.')[1]
+               : data.url_corona;
+     url_corona =
+          url_corona.indexOf('://') > -1
+               ? url_corona.split('://')[1]
+               : url_corona;
+     url_corona =
+          url_corona.indexOf('/') > -1 ? url_corona.split('/')[0] : url_corona;
+
+     url_corona = url_corona.length < 1 ? '' : url_corona;
 
      useEffect(() => {
           switch (data.main_geographic_focus) {
@@ -102,6 +100,7 @@ const InitiativeCard = ({ data }) => {
                     setFlipped(!flipped);
                }}
           >
+               {/* // BACK CARD */}
                <animated.div
                     className={style.back}
                     style={{
@@ -116,7 +115,7 @@ const InitiativeCard = ({ data }) => {
                     <p>{data.summary}</p>
                     <p>&#8594;</p>
                </animated.div>
-
+               {/* FRONT CARD */}
                <animated.div
                     className={style.front}
                     style={{
@@ -127,26 +126,56 @@ const InitiativeCard = ({ data }) => {
                     }}
                >
                     <h1 className={style.title}>{data.name}</h1>
-                    <a target="_blank" href={data.url}>
-                         <span className={style.description}>Website: </span>
-                         <br />
-                         {url}
-                    </a>
-                    <p className={style.host}>
-                         <span className={style.description}>Host: </span>
-                         <br />
-                         {data.host}
-                    </p>
-                    <p className={style.mainSponsor}>
-                         <span className={style.description}>
-                              Main Sponsor:{' '}
-                         </span>
-                         <br />
-                         {data.main_sponsor}
-                    </p>
-                    {/* <p>{data.summary}</p> */}
+                    <div className={style.frontText}>
+                         <div className={style.frontLeft}>
+                              <a target="_blank" href={data.url}>
+                                   <span className={style.description}>
+                                        Website:{' '}
+                                   </span>
+                                   <br />
+                                   {url}
+                              </a>
+                              <p className={style.host}>
+                                   <span className={style.description}>
+                                        Host:{' '}
+                                   </span>
+                                   <br />
+                                   {data.host}
+                              </p>
+                              <p className={style.mainSponsor}>
+                                   <span className={style.description}>
+                                        Main Sponsor:{' '}
+                                   </span>
+                                   <br />
+                                   {data.main_sponsor}
+                              </p>
+                              {/* <p>{data.summary}</p> */}
+                         </div>
+                         <div className={style.frontRight}>
+                              {data.active_corona !== '0' ? (
+                                   <div>
+                                        <h3>Active on Covid-19</h3>
+                                        <p>
+                                             <span className={style.covid}>
+                                                  Response:{' '}
+                                             </span>
+                                             <br />
+                                             <a
+                                                  target="_blank"
+                                                  href={data.url_corona}
+                                             >
+                                                  {' '}
+                                                  Go to website
+                                             </a>
+                                        </p>
+                                   </div>
+                              ) : (
+                                   ''
+                              )}
+                         </div>
+                    </div>
 
-                    <p className={style.readMore}>Read more &#8594;</p>
+                    {/* <p className={style.readMore}>Read more &#8594;</p> */}
 
                     {/* <div className={style.gradient} /> */}
                     <div className={style.bottomCard}>

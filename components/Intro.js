@@ -5,27 +5,33 @@ import Aos from "aos";
 import Toggle from "./Toggle";
 import Form from "./Form";
 
-const Intro = () => {
-  const button = useRef();
-  const intro = useRef();
+const Intro = ({ setActiveToggle }) => {
+     const button = useRef();
+     const intro = useRef();
 
   const [toggle, setToggle] = useState(true);
 
-  useEffect(() => {
-    Aos.init({ duration: 500 });
-  }, []);
+     useEffect(() => {
+          Aos.init({ duration: 500 });
+          setActiveToggle((s) => [...s, { click: handleClick, name: 'Intro' }]);
+     }, []);
 
-  const handleClick = () => {
-    setToggle(!toggle);
-  };
+     const handleClick = () => {
+          setToggle((toggle) => !toggle);
+     };
 
-  return (
-    <div>
-      <Toggle click={handleClick} toggleTitle="Intro" />
-
-      {toggle ? (
-        <div ref={intro} className={style.intro} data-aos="fade-down">
-          <h1>Mapping of Global and Regional Funds, Networks and Programmes</h1>
+     return (
+          <div>
+               {toggle ? (
+                    <div
+                         ref={intro}
+                         className={style.intro}
+                         data-aos="fade-down"
+                    >
+                         <h1>
+                              Mapping of Global and Regional Funds, Networks and
+                              Programmes
+                         </h1>
 
           <p>
             GRP has undertaken a{" "}
