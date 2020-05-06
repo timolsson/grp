@@ -4,6 +4,8 @@
      position: relative;
      width: 22%;
      min-width: 400px;
+     display: flex;
+     flex-direction: column;
      flex-grow: 1;
      height: $mn * 5.5;
      margin: $mn/4;
@@ -35,38 +37,77 @@
           // max-height: $mn * 1.5;
      }
 
-     .readMore {
-          padding-top: $mn/2;
-
-          //  font-weight: 600;
-          //  opacity: 0.75;
-     }
-
      .title {
           @include FontExtraLarge;
           height: auto;
           min-height: 15%;
+          width: 100%;
      }
+     .frontText {
+          display: flex;
+          flex-direction: row;
+     }
+     .frontLeft {
+          width: 49%;
+          margin-right: auto;
+          height: 100%;
+          position: relative;
+          .readMore {
+               padding-top: $mn/2;
 
-     .host {
-          font-size: $mn/4;
-     }
-     .mainSponsor {
-          font-size: $mn/4;
-     }
+               //  font-weight: 600;
+               //  opacity: 0.75;
+          }
 
-     .description {
-          color: $ColorRock;
-          font-size: $mn/5;
-          opacity: 0.6;
-     }
+          .host {
+               font-size: $mn/4;
+          }
+          .mainSponsor {
+               font-size: $mn/4;
+          }
 
-     a {
-          width: min-content;
-          display: block;
-          text-decoration: none;
-          padding: $mn/6 0px;
-          @include FontNormal;
+          .description {
+               color: $ColorRock;
+               font-size: $mn/5;
+               opacity: 0.6;
+          }
+
+          a {
+               width: min-content;
+               display: block;
+               text-decoration: none;
+               padding: 0 0 $mn/6 0;
+               @include FontNormal;
+          }
+     }
+     .frontRight {
+          width: 35%;
+          position: relative;
+          margin-right: auto;
+          height: 100%;
+          a {
+               width: min-content;
+               display: block;
+               text-decoration: none;
+               padding: 0 0 $mn/6 0;
+               @include FontNormal;
+               white-space: nowrap;
+          }
+          .covid {
+               color: $ColorRock;
+               font-size: $mn/5;
+               opacity: 0.6;
+          }
+          h3 {
+               color: crimson;
+               border: 1px solid crimson;
+               border-radius: 5px;
+               padding: 2px 4px;
+               width: min-content;
+               white-space: nowrap;
+               margin-left: auto;
+               margin-top: $mn/5;
+          }
      }
      .bottomCard {
           .colorGreen {

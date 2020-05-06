@@ -1,347 +1,5 @@
 [
      {
-          "name": "A2R - UN Climate Resilience Initiative -",
-          "url": "www.a2rinitiative.org",
-          "summary": "A2R is a global, multi-stakeholder platform aiming to accelerate action to strengthen climate resilience in support of the 2030 Agenda for Sustainable Development. It aims to forge synergies between climate change adaptation efforts, humanitarian, disaster risk reduction and development interventions.",
-          "type": "Network/ partnership/ platform",
-          "host": "UNE and FAO",
-          "main_sponsor": "Funded by members",
-          "resilience_focus": "Yes",
-          "linked_to_UNCAS": "",
-          "main_geographic_focus": "Global",
-          "sector": "Public, Private & CSO",
-          "policy_planning": "",
-          "knowledge_learning": "1",
-          "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
-     },
-     {
-          "name": "ASEAN Climate Resilience Network",
-          "url": "https://asean-crn.org/",
-          "summary": "Platform for regional exchange, particularly for sharing information, experiences, and expertise on climate smart agriculture (CSA)",
-          "type": "Network/ partnership/ platform",
-          "host": "",
-          "main_sponsor": "",
-          "resilience_focus": "Yes",
-          "linked_to_UNCAS": "",
-          "main_geographic_focus": "Regional - SE Asia",
-          "sector": "Public, Private & CSO",
-          "policy_planning": "",
-          "knowledge_learning": "1",
-          "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
-     },
-     {
-          "name": "Asian Cities Climate Change Resilience Network (ACCCRN)",
-          "url": "https://www.acccrn.net/",
-          "summary": "ACCCRN aims to enable poor, marginalized, and otherwise vulnerable people in Asia's emerging cities, to be included and supported in the systems and processes driving urbanization and emerging resilience- building measures. Objectives are to amplifying local voices, facilitating collaboration among practitioners, supporting community initiatives for resilience, and connecting stakeholders to join hands in building urban resilience.",
-          "type": "Network/ partnership/ platform",
-          "host": "",
-          "main_sponsor": "Rockefeller Foundation",
-          "resilience_focus": "Yes",
-          "linked_to_UNCAS": "",
-          "main_geographic_focus": "Regional - Asia",
-          "sector": "Public, Private & CSO",
-          "policy_planning": "1",
-          "knowledge_learning": "",
-          "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
-     },
-     {
-          "name": "Building Climate Resilience of the Urban Poor (BCRUP)",
-          "url": "",
-          "summary": "Aims to enhance the resilience of those living in slums and informal settlements in developing countries, targeting, by 2023, 150 million slum dwellers in 140 'hot-spot' cities across 50 countries, and scaling this up to reach 600 million slum dwellers by 2030. It will step-up climate action for some of the most vulnerable and heavily impacted by climate change, including slum dwellers and residents of informal settlements. This Initiative will implement a collaborative approach to build resilience of about 600 million urban poor currently at risk of the impacts of climate change. Partners in the Initiative aim to mobilize USD 15.2 billion over a first phase for 4 years",
-          "type": "Network/ partnership/ platform",
-          "host": "UNHabitat",
-          "main_sponsor": "Kenya, Brazil",
-          "resilience_focus": "Yes",
-          "linked_to_UNCAS": "1",
-          "main_geographic_focus": "Global",
-          "sector": "Public, Private & CSO",
-          "policy_planning": "1",
-          "knowledge_learning": "",
-          "finance_budgets": "1",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
-     },
-     {
-          "name": "Building Resilience and Adaptation to Climate Extremes and Disasters (BRACED) -",
-          "url": "www.braced.org",
-          "summary": "BRACED is helping people become more resilient to climate extremes in South and Southeast Asia and in the African Sahel and its neighbouring countries and to improve the integration of disaster risk reduction and climate adaptation methods into development.",
-          "type": "Programme",
-          "host": "Consortium led by ODI and includes Red Cross Climate Centre and ITAD",
-          "main_sponsor": "DFID",
-          "resilience_focus": "Yes",
-          "linked_to_UNCAS": "",
-          "main_geographic_focus": "Global",
-          "sector": "Public & CSO",
-          "policy_planning": "1",
-          "knowledge_learning": "1",
-          "finance_budgets": "",
-          "practice_innovation": "1",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
-     },
-     {
-          "name": "Building Resilience in Africa's Drylands",
-          "url": "http://www.fao.org/africa/perspectives/resilience-in-drylands/en/",
-          "summary": "Aim to strengthen the resilience of livelihoods to shocks, threats and crises in Africa's drylands, while responding to crises when they occur. Support countries and regional institutions to strengthen the resilience of livelihoods, improve countries' capacities, and facilitate exchange of resilience good practices.",
-          "type": "Programme",
-          "host": "FAO",
-          "main_sponsor": "",
-          "resilience_focus": "Yes",
-          "linked_to_UNCAS": "",
-          "main_geographic_focus": "Regional - Africa",
-          "sector": "Public",
-          "policy_planning": "",
-          "knowledge_learning": "",
-          "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
-     },
-     {
-          "name": "Climate Justice Resilience Fund",
-          "url": "https://www.cjrfund.org/",
-          "summary": "Grantmaking initiative dedicated to helping women, youth, and indigenous peoples adapt and build resilience to climate change. Focus on community-led approaches, and providing tools for affected people to assert their rights, reduce risks, manage shocks, rebound, and chart a path to sustainable development.",
-          "type": "Fund/finance",
-          "host": "New Venture Fund (NVF)",
-          "main_sponsor": "Oak Foundation",
-          "resilience_focus": "Yes",
-          "linked_to_UNCAS": "",
-          "main_geographic_focus": "Global",
-          "sector": "CSO",
-          "policy_planning": "",
-          "knowledge_learning": "",
-          "finance_budgets": "1",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
-     },
-     {
-          "name": "Climate Resilience and Adaptation Finance and Technology-transfer Facility (CRAFT)",
-          "url": "https://www.climatefinancelab.org/project/climate-resilience-adaptation-financetransfer-facility-craft/",
-          "summary": "Blended finance structure that includes public, private, and philanthropic investors that will invest in companies that have technologies and solutions that support climate resilience.",
-          "type": "Fund/finance",
-          "host": "",
-          "main_sponsor": "",
-          "resilience_focus": "Yes",
-          "linked_to_UNCAS": "",
-          "main_geographic_focus": "Global",
-          "sector": "Public, Private & CSO",
-          "policy_planning": "",
-          "knowledge_learning": "",
-          "finance_budgets": "1",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
-     },
-     {
-          "name": "Climate Resilience Network (CRN)",
-          "url": "",
-          "summary": "An informal group of organisations working around a common agenda and narrative focused on building resilience to climate risks. The network acts as a platform for information exchange and collaboration on key issues and events on climate resilience including those under MPGCA.",
-          "type": "Network/ partnership/ platform",
-          "host": "UN",
-          "main_sponsor": "",
-          "resilience_focus": "Yes",
-          "linked_to_UNCAS": "1",
-          "main_geographic_focus": "Global",
-          "sector": "Public, Private & CSO",
-          "policy_planning": "1",
-          "knowledge_learning": "1",
-          "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
-     },
-     {
-          "name": "Community Resilience Fund",
-          "url": "https://huairou.org/communities/community-resilience/",
-          "summary": "Innovative financial mechanism that delivers micro funding to grassroots women in disaster-prone communities. Grants help grassroots women develop their leadership and entrepreneurial skills, create livelihoods opportunities for women to reduce their community's vulnerabilities to disaster.",
-          "type": "Fund/finance",
-          "host": "Huairou Commission",
-          "main_sponsor": "Sida/Sweden",
-          "resilience_focus": "Yes",
-          "linked_to_UNCAS": "",
-          "main_geographic_focus": "Global",
-          "sector": "CSO",
-          "policy_planning": "",
-          "knowledge_learning": "",
-          "finance_budgets": "1",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
-     },
-     {
-          "name": "Food Security Climate Resilience Facility (FoodSECuRE)",
-          "url": "http://www.wfp.org/climate-change/initiatives/foodsecure",
-          "summary": "A multilateral, multi-year, replenishable fund being developed by WFP to financially and programmatically support community-centred action to reinforce and build climate resilience. Links climate and hazard forecasting with flexible multi-year financing, providing governments the means to quickly unlock funding to scale-up food and nutrition responses as well as disaster risk reduction.",
-          "type": "Programme",
-          "host": "WFP",
-          "main_sponsor": "",
-          "resilience_focus": "Yes",
-          "linked_to_UNCAS": "",
-          "main_geographic_focus": "Global",
-          "sector": "Public",
-          "policy_planning": "",
-          "knowledge_learning": "",
-          "finance_budgets": "",
-          "practice_innovation": "1",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
-     },
-     {
-          "name": "Global Resilience Partnership (GRP)",
-          "url": "http://www.globalresiliencepartnership.org/",
-          "summary": "Aims to help millions of vulnerable people in the Sahel, the Horn of Africa, and South and Southeast Asia better adapt to shocks and chronic stresses and invest in a more resilient future. Focus on finding new ways of dealing with intractable issues. It is organized around three impact pathways: Knowledge Brokering; Policy Engagement, Innovation; and Business and Investment.",
-          "type": "Network/ partnership/ platform",
-          "host": "Stockholm Resilience Centre with KPMG managing two funds",
-          "main_sponsor": "USAID, SIDA, RF, Zurich",
-          "resilience_focus": "Yes",
-          "linked_to_UNCAS": "",
-          "main_geographic_focus": "Global",
-          "sector": "Public, Private & CSO",
-          "policy_planning": "1",
-          "knowledge_learning": "1",
-          "finance_budgets": "",
-          "practice_innovation": "1",
-          "active_corona": "1",
-          "response_corona": "GRP is working with it's partners to accelerate peer-to-peer learning about what community resilience tactics are working in the face of COVID-19.",
-          "url_corona": "http://www.globalresiliencepartnership.org/news/2020/04/03/building-community-resilience-in-the-face-of-covid-19/"
-     },
-     {
-          "name": "InsuResilience Global Partnership",
-          "url": "http://www.insuresilience.org/",
-          "summary": "The vision is to strengthen the resilience of developing countries and to protect the lives and livelihoods of poor and vulnerable people from the impacts of disasters by enabling faster, more reliable and cost-effective responses. Seeks to amplify the impact of ongoing initiatives, develop new climate and disaster risk finance and insurance solutions to help meet the needs in developing countries, and ensure risk financing is integrated within disaster risk management and humanitarian financing.",
-          "type": "Network/ partnership/ platform",
-          "host": "GIZ",
-          "main_sponsor": "G7, EU, Netherlands",
-          "resilience_focus": "Yes",
-          "linked_to_UNCAS": "",
-          "main_geographic_focus": "Global",
-          "sector": "Public & Private",
-          "policy_planning": "1",
-          "knowledge_learning": "1",
-          "finance_budgets": "",
-          "practice_innovation": "1",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
-     },
-     {
-          "name": "Integrated Approach Programme on Fostering Sustainability and Resilience for Food Security in sub-Saharan Africa.",
-          "url": "https://ifad-un.blogspot.com/2015/10/integrated-approach-programme-on.html",
-          "summary": "Programme to support countries on national policies and farmer practices that safeguard food production to ensure the sustainability and resilience required to feed their people. $116 million to support twelve countries (Burkina Faso, Burundi, Ethiopia, Ghana, Kenya, Malawi, Niger, Nigeria, Senegal, Swaziland.",
-          "type": "Programme",
-          "host": "IFAD",
-          "main_sponsor": "GEF",
-          "resilience_focus": "Yes",
-          "linked_to_UNCAS": "",
-          "main_geographic_focus": "Regional - Africa",
-          "sector": "Public, Private & CSO",
-          "policy_planning": "",
-          "knowledge_learning": "1",
-          "finance_budgets": "",
-          "practice_innovation": "1",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
-     },
-     {
-          "name": "Partners for Resilience (PfR)",
-          "url": "http://www.partnersforresilience.nl/en/",
-          "summary": "Partners for Resilience is an alliance of dutch humanitarian, development, climate and environmental civil society organisations. Aims at strengthening CSOs at global, national and local level by focusing on a sound knowledge basis and improved capacity to argue for IRM in their own socio-economic and political context.",
-          "type": "Programme",
-          "host": "Netherlands Red Cross (lead of the alliance)",
-          "main_sponsor": "Ministry of Foreign Affairs - the Netherlands",
-          "resilience_focus": "Yes",
-          "linked_to_UNCAS": "",
-          "main_geographic_focus": "Global",
-          "sector": "CSO",
-          "policy_planning": "1",
-          "knowledge_learning": "1",
-          "finance_budgets": "",
-          "practice_innovation": "1",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
-     },
-     {
-          "name": "Resilience Africa Network",
-          "url": "http://www.ranlab.org/",
-          "summary": "Partnership of 18 African universities in 13 countries. RAN is one of eight development labs under the Higher Education Solutions Network (HESN), USAID. Objectives: 1. Design and operationalize a resilience framework for Sub-Saharan Africa. 2. Strengthen resilience at the individual, household and community levels. 3. Enhance and share resilience-related knowledge.",
-          "type": "Network/ partnership/ platform",
-          "host": "Makerere, Standford and George Washington Univerisities.",
-          "main_sponsor": "",
-          "resilience_focus": "Yes",
-          "linked_to_UNCAS": "",
-          "main_geographic_focus": "Regional - Africa",
-          "sector": "Public & CSO",
-          "policy_planning": "",
-          "knowledge_learning": "1",
-          "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "1",
-          "response_corona": "Held a webinar to come up with various innovations as active response to respond to the Coronavirus pandemic. Some innovations included: Collaboration to develop a low cost ventilator and affordable, re-usable Hazmat Suits for local infection prevention.",
-          "url_corona": "http://www.ranlab.org/14311-2"
-     },
-     {
-          "name": "Resilience Alliance",
-          "url": "www.resalliance.org",
-          "summary": " International, multidisciplinary research organization that explores the dynamics of social-ecological systems. RA members collaborate across disciplines to advance the understanding and practical application of resilience, adaptive capacity, and transformation of societies and ecosystems in order to cope with change and support human well-being.",
-          "type": "Network/ partnership/ platform",
-          "host": "",
-          "main_sponsor": "",
-          "resilience_focus": "Yes",
-          "linked_to_UNCAS": "",
-          "main_geographic_focus": "Global",
-          "sector": "Public, Private & CSO",
-          "policy_planning": "",
-          "knowledge_learning": "1",
-          "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
-     },
-     {
-          "name": "Resilience Measurement - MEL Community of Practice",
-          "url": "http://www.measuringresilience.org/",
-          "summary": "The Community of Practice is a network of 180+ resilience measurement and monitoring, evaluation and learning specialists from around the world. Its aims are to strengthen evidence of what works to increase the capacity of individuals, communities and systems to be more resilient influence development practice, policy and investments across diverse sectors and geographies.",
-          "type": "Network/ partnership/ platform",
-          "host": "GRP",
-          "main_sponsor": "Rockefeller Foundation",
-          "resilience_focus": "Yes",
-          "linked_to_UNCAS": "",
-          "main_geographic_focus": "Global",
-          "sector": "Public & CSO",
-          "policy_planning": "",
-          "knowledge_learning": "1",
-          "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
-     },
-     {
           "name": "100 Resilient Cities",
           "url": "http://www.100resilientcities.org/",
           "summary": "Works to help more cities build resilience to the physical, social, and economic challenges that are a growing part of the 21st century. Cities in the 100RC network are provided with the resources necessary to develop a roadmap to resilience along four main pathways.",
@@ -355,15 +13,28 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
+     },
+     {
+          "name": "A2R - UN Climate Resilience Initiative -",
+          "url": "www.a2rinitiative.org",
+          "summary": "A2R is a global, multi-stakeholder platform aiming to accelerate action to strengthen climate resilience in support of the 2030 Agenda for Sustainable Development.  It aims to forge synergies between climate change adaptation efforts, humanitarian, disaster risk reduction and development interventions.",
+          "type": "Network/ partnership/ platform",
+          "host": "UNE and FAO",
+          "main_sponsor": "Funded by members",
+          "resilience_focus": "Yes",
+          "linked_to_UNCAS": "",
+          "main_geographic_focus": "Global",
+          "sector": "Public, Private & CSO",
+          "policy_planning": "",
+          "knowledge_learning": "1",
+          "finance_budgets": "",
+          "practice_innovation": ""
      },
      {
           "name": "Action on Climate Today (ACT)",
           "url": "http://www.actiononclimate.today/",
-          "summary": "ACT is working to reduce the effects of climate change in South Asia. Works with the governments to help integrate climate change into their policies, plans and budgets, and o attract further climate change investments.",
+          "summary": "ACT is working to reduce the effects of climate change in South Asia. Works with the governments to help integrate climate change into their policies, plans and budgets, and o attract further climate change investments. ",
           "type": "Programme",
           "host": "Oxford Policy Management",
           "main_sponsor": "DFID",
@@ -374,10 +45,7 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "-88",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Adaptation for Smaholder Agriculture Programme (ASAP)",
@@ -393,10 +61,7 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Adaptation Fund",
@@ -412,10 +77,7 @@
           "policy_planning": "1",
           "knowledge_learning": "1",
           "finance_budgets": "1",
-          "practice_innovation": "1",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": "1"
      },
      {
           "name": "Adaptation of African Agriculture Initiative (AAAI)",
@@ -431,13 +93,10 @@
           "policy_planning": "1",
           "knowledge_learning": "",
           "finance_budgets": "",
-          "practice_innovation": "1",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": "1"
      },
      {
-          "name": "Adaptation'Learning Programme (ALP) for Africa",
+          "name": "Adaptation Learning Programme (ALP) for Africa",
           "url": "http://careclimatechange.org/our-work/alp/",
           "summary": "ALP develops innovative community-based adaptation (CBA) approaches and strategies with farming and pastoralist communities, and promotes their integration into local and national government systems.",
           "type": "Network/ partnership/ platform",
@@ -450,15 +109,12 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "1",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": "1"
      },
      {
           "name": "Africa Climate Change Resilience Alliance (ACRA)",
           "url": "https://cdkn.org/project/africa-climate-change-resilience-alliance-phase-2/?loclang=en_gb",
-          "summary": "The purpose of ACCRA'was to increase the use of evidence in developing and implementing policies and interventions that improve poor people's adaptive capacity.",
+          "summary": "The purpose of ACCRA was to increase the use of evidence in developing and implementing policies and interventions that improve poor people s adaptive capacity.",
           "type": "Network/ partnership/ platform",
           "host": "",
           "main_sponsor": "DFID",
@@ -469,15 +125,12 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Africa Climate Resilient Investment Facility (AFRI-RES)",
           "url": "https://www.ndf.fi/project/africa-climate-resilient-investment-facility-afri-res-ndf-c91",
-          "summary": "Aims to strengthen the capacity of African institutions and private sector to plan, design, and implement investments in selected sectors, so as to increase their resilience to climate change.",
+          "summary": "Aims to strengthen the capacity of African institutions  and private sector to plan, design, and implement investments in selected sectors, so as to increase their resilience to climate change.",
           "type": "Fund/finance",
           "host": "African Climate Policy Centre (ACPC) and World Bank",
           "main_sponsor": "Nordic Fund",
@@ -488,10 +141,7 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "1",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Africa Risk Capacity",
@@ -507,10 +157,7 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "1",
-          "practice_innovation": "",
-          "active_corona": "1",
-          "response_corona": "The Africa Risk Capacity is undertaking an urgent exercise to model the potential impact of Covid-19 on Africa to inform and guide member states",
-          "url_corona": "https://www.africanriskcapacity.org/wp-content/uploads/2020/03/ARC-OE-Coronavirus-Position-Paper_March2020.pdf"
+          "practice_innovation": ""
      },
      {
           "name": "African Adaptation Initiative",
@@ -526,10 +173,7 @@
           "policy_planning": "1",
           "knowledge_learning": "1",
           "finance_budgets": "1",
-          "practice_innovation": "1",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": "1"
      },
      {
           "name": "AGIR (the Global Alliance for Resilience Initiative)",
@@ -545,15 +189,12 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Alliance for Global Water Adaptation",
           "url": "https://alliance4water.org/",
-          "summary": "A a member-based NGO comprised of regional and global development banks, government agencies and ministries, diverse non-governmental organizations (NGOs), utilities, academia, and the private sector focused on sustainable water resources management  even as climate change alters the global hydrological cycle. Work covers a number of areas related to climate change adaptation: science, policy, economics, engineering, and more. AGWA is focused on how to help experts, decision makers, and institutions in the water community work more effectively.",
+          "summary": "A a member-based NGO comprised of regional and global development banks, government agencies and ministries, diverse non-governmental organizations (NGOs), utilities, academia, and the private sector focused on sustainable water resources management   even as climate change alters the global hydrological cycle. Work covers a number of areas related to climate change adaptation: science, policy, economics, engineering, and more. AGWA is focused on how to help experts, decision makers, and institutions in the water community work more effectively.",
           "type": "Network/ partnership/ platform",
           "host": "",
           "main_sponsor": "",
@@ -564,15 +205,12 @@
           "policy_planning": "1",
           "knowledge_learning": "",
           "finance_budgets": "",
-          "practice_innovation": "1",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": "1"
      },
      {
           "name": "Alliance for Water Stewardship",
           "url": "https://a4ws.org/",
-          "summary": "Collaboration of businesses, NGOs, and public sector actors working on the sustainability of local water resources through the adoption and promotion of a universal framework for the sustainable use of water.",
+          "summary": "Collaboration of businesses, NGOs, and public sector actors working on the  sustainability of local water resources through the adoption and promotion of a universal framework for the sustainable use of water.",
           "type": "Network/ partnership/ platform",
           "host": "",
           "main_sponsor": "",
@@ -583,10 +221,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Andes (Copandes",
@@ -602,15 +237,12 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "ARISE",
           "url": "https://www.preventionweb.net/arise/about/",
-          "summary": "ARISE is a private sector initiative that works towards a resilient, prosperous future where fewer lives are lost to disasters, capital assets and investments are risk-informed, and infrastructure is resilient to natural and man-made hazards. Its has five Commitments to support Sendaihe framework:a) Raise Awareness; b) Influence; c) Share Knowledge: d) Catalyse innovation in risk-informed business strategies; e) Implement projects.",
+          "summary": "ARISE is a private sector initiative that works towards a resilient, prosperous future where fewer lives are lost to disasters, capital assets and investments are risk-informed, and infrastructure is resilient to natural and man-made hazards. Its has five Commitments  to support Sendaihe framework:a) Raise Awareness; b) Influence; c) Share Knowledge: d) Catalyse innovation in risk-informed business strategies; e) Implement projects.",
           "type": "Network/ partnership/ platform",
           "host": "UNISDR",
           "main_sponsor": "",
@@ -621,10 +253,23 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "1",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
+     },
+     {
+          "name": "ASEAN Climate Resilience Network",
+          "url": "https://asean-crn.org/",
+          "summary": "Platform for regional exchange, particularly for sharing information, experiences, and expertise on climate smart agriculture (CSA)",
+          "type": "Network/ partnership/ platform",
+          "host": "",
+          "main_sponsor": "",
+          "resilience_focus": "Yes",
+          "linked_to_UNCAS": "",
+          "main_geographic_focus": "Regional - SE Asia",
+          "sector": "Public, Private & CSO",
+          "policy_planning": "",
+          "knowledge_learning": "1",
+          "finance_budgets": "",
+          "practice_innovation": ""
      },
      {
           "name": "Asia Pacific Adaptation Network (APAN)",
@@ -640,10 +285,71 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
+     },
+     {
+          "name": "Asian Cities Climate Change Resilience Network (ACCCRN)",
+          "url": "https://www.acccrn.net/",
+          "summary": "ACCCRN aims to enable poor, marginalized, and otherwise vulnerable people in Asia s emerging cities, to be included and supported in the systems and processes driving urbanization and emerging resilience- building measures. Objectives are to amplifying local voices, facilitating collaboration among practitioners, supporting community initiatives for resilience, and connecting stakeholders to join hands in building urban resilience.",
+          "type": "Network/ partnership/ platform",
+          "host": "",
+          "main_sponsor": "Rockefeller Foundation",
+          "resilience_focus": "Yes",
+          "linked_to_UNCAS": "",
+          "main_geographic_focus": "Regional - Asia",
+          "sector": "Public, Private & CSO",
+          "policy_planning": "1",
+          "knowledge_learning": "",
+          "finance_budgets": "",
+          "practice_innovation": ""
+     },
+     {
+          "name": "Building Climate Resilience of the Urban Poor (BCRUP)",
+          "url": "",
+          "summary": "Aims to enhance the resilience of those living in slums and informal settlements in developing countries, targeting, by 2023, 150 million slum dwellers in 140  hot-spot  cities across 50 countries, and scaling this up to reach 600 million slum dwellers by 2030. It will step-up climate action for some of the most vulnerable and heavily impacted by climate change, including slum dwellers and residents of informal settlements. This Initiative will implement a collaborative approach to build resilience of about 600 million urban poor currently at risk of the impacts of climate change.  Partners in the Initiative aim to mobilize USD 15.2 billion over a first phase for 4 years",
+          "type": "Network/ partnership/ platform",
+          "host": "UNHabitat",
+          "main_sponsor": "Kenya, Brazil",
+          "resilience_focus": "Yes",
+          "linked_to_UNCAS": "1",
+          "main_geographic_focus": "Global",
+          "sector": "Public, Private & CSO",
+          "policy_planning": "1",
+          "knowledge_learning": "",
+          "finance_budgets": "1",
+          "practice_innovation": ""
+     },
+     {
+          "name": "Building Resilience and Adaptation to Climate Extremes and Disasters (BRACED) -",
+          "url": "www.braced.org",
+          "summary": "BRACED is helping people become more resilient to climate extremes in South and Southeast Asia and in the African Sahel and its neighbouring countries and to improve the integration of disaster risk reduction and climate adaptation methods into development.",
+          "type": "Programme",
+          "host": "Consortium led by ODI and includes Red Cross Climate Centre and ITAD",
+          "main_sponsor": "DFID",
+          "resilience_focus": "Yes",
+          "linked_to_UNCAS": "",
+          "main_geographic_focus": "Global",
+          "sector": "Public & CSO",
+          "policy_planning": "1",
+          "knowledge_learning": "1",
+          "finance_budgets": "",
+          "practice_innovation": "1"
+     },
+     {
+          "name": "Building Resilience in Africa s Drylands",
+          "url": "http://www.fao.org/africa/perspectives/resilience-in-drylands/en/",
+          "summary": "Aim to strengthen the resilience of livelihoods to shocks, threats and crises in Africa s drylands, while responding to crises when they occur. Support countries and regional institutions to strengthen the resilience of livelihoods, improve countries  capacities, and facilitate exchange of resilience good practices.",
+          "type": "Programme",
+          "host": "FAO",
+          "main_sponsor": "",
+          "resilience_focus": "Yes",
+          "linked_to_UNCAS": "",
+          "main_geographic_focus": "Regional - Africa",
+          "sector": "Public",
+          "policy_planning": "",
+          "knowledge_learning": "",
+          "finance_budgets": "",
+          "practice_innovation": ""
      },
      {
           "name": "Business Alliance for Water and Climate",
@@ -659,10 +365,7 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "C40",
@@ -678,10 +381,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "1",
-          "response_corona": "C40 are working to use connections built up during C40's 15-year history to help cities respond to this crisis. For example, C40's Food Systems Network has been organising webinars, calls and group texts to support information exchange on plans for feeding people during an outbreak. Cities in C40's waste networks are sharing their experiences of how they are managing waste collection and treatment during the COVID-19 crisis.",
-          "url_corona": "https://www.c40.org/press_releases/our-mission-continues-statement-from-mark-watts-on-the-covid-19-pandemic"
+          "practice_innovation": ""
      },
      {
           "name": "Caribbean Catastrophe Risk Insurance Facility (CCRIF)",
@@ -697,10 +397,7 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "1",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Caribbean Community Climate Change Centre",
@@ -716,10 +413,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Carribean Regional Climate Centre",
@@ -735,10 +429,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Center for Climate Transparency",
@@ -754,10 +445,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Central America Integration System (SICA) Initiative",
@@ -773,10 +461,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Centre for Global Disaster Protection",
@@ -792,15 +477,12 @@
           "policy_planning": "1",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "1",
-          "response_corona": "Published articles/blogs on the way forward during the COVID-19 pandemic.",
-          "url_corona": "https://www.disasterprotection.org/latest-news/covid-19-caught-the-world-off-guard-pandemics-must-never-surprise-us-again https://www.disasterprotection.org/latest-news/at-every-stage-acting-early-pays "
+          "practice_innovation": ""
      },
      {
           "name": "CILSS - Permanent Interstate Committee for Drought Control in the Sahel",
           "url": "http://www.cilss.int/#",
-          "summary": "Comprises of 8 coastal States (Benin, C'te d'Ivoire, Gambia, Guinea, Guinea-Bissau, Mauritania, Senegal, Togo); 4 landlocked States (Burkina Faso, Mali, Niger, Chad) and 1 island state (Cape Verde). The overall mandate or objective that guides CILSS 'action is to invest in the search for food security and in the fight against the effects of drought and desertification, for a new ecological balance in the Sahel.",
+          "summary": "Comprises of 8 coastal States (Benin, C te d'Ivoire, Gambia, Guinea, Guinea-Bissau, Mauritania, Senegal, Togo); 4 landlocked States (Burkina Faso, Mali, Niger, Chad) and 1 island state (Cape Verde). The overall mandate or objective that guides CILSS 'action is to invest in the search for food security and in the fight against the effects of drought and desertification, for a new ecological balance in the Sahel.",
           "type": "Network/ partnership/ platform",
           "host": "",
           "main_sponsor": "",
@@ -811,15 +493,12 @@
           "policy_planning": "1",
           "knowledge_learning": "",
           "finance_budgets": "",
-          "practice_innovation": "1",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": "1"
      },
      {
           "name": "Cities Alliance",
           "url": "http://www.citiesalliance.org/",
-          "summary": "Alliance is the global partnership supporting cities to deliver sustainable development. Provides operational support to urban programmes aimed at reducing urban poverty and gender inequality.",
+          "summary": "Alliance is the global partnership supporting cities to deliver sustainable development.  Provides operational support to urban programmes aimed at reducing urban poverty and gender inequality.",
           "type": "Network/ partnership/ platform",
           "host": "Cities Alliance and C40 Cities Climate Leadership Group",
           "main_sponsor": "Sida/Sweden and others",
@@ -830,10 +509,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "1",
-          "active_corona": "1",
-          "response_corona": "Cities Alliance participated in a webinar on the impact of COVID-19 on informal settlements and social housing. In this webinar, responses to the crisis and emergency generated by COVID-19 were identified, and inputs were collected for public action in the precarious settlements of Central America and social housing policy, with the perspective of promoting a structural change in the context of inequalities and segregation in cities.",
-          "url_corona": "https://www.citiesalliance.org/newsroom/news/cities-alliance-news/covid-19-informal-settlements-and-social-housing"
+          "practice_innovation": "1"
      },
      {
           "name": "Clean Cooking Fund",
@@ -849,15 +525,12 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "",
-          "practice_innovation": "1",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": "1"
      },
      {
           "name": "Clim Dev",
           "url": "http://www.climdev-africa.org/",
-          "summary": "Initiative of the African Union Commission (AUC), the United Nations Economic Commission for Africa (ECA) and the African Development Bank (AfDB). It is mandated by African leaders the Programme was established to create a solid foundation for Africa's response to climate change.",
+          "summary": "Initiative of the African Union Commission (AUC), the United Nations Economic Commission for Africa (ECA) and the African Development Bank (AfDB). It is mandated by African leaders the Programme was established to create a solid foundation for Africa s response to climate change.",
           "type": "Programme",
           "host": "",
           "main_sponsor": "DFID, USAID, SIDA, EU, Norway",
@@ -868,10 +541,7 @@
           "policy_planning": "1",
           "knowledge_learning": "",
           "finance_budgets": "",
-          "practice_innovation": "1",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": "1"
      },
      {
           "name": "Climate Action Network (CAN)",
@@ -887,10 +557,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "1",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": "1"
      },
      {
           "name": "Climate Adaptation Knowledge Exchange (CAKE)",
@@ -906,10 +573,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Climate Adaptation Management and Innovation Initiative (C-ADAPT)",
@@ -925,10 +589,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "1",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": "1"
      },
      {
           "name": "Climate Bonds Initiative",
@@ -944,17 +605,14 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "1",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Climate Development Knowledge Network (CDKN)",
           "url": "https://cdkn.org",
-          "summary": "Works to enhance the quality of life for the poorest and most vulnerable to climate change. We support decision-makers in designing and delivering climate compatible development. CDKN's knowledge services focus on making information and learning on climate compatible development easier to access and use, in support of ambitious climate action.",
+          "summary": "Works to enhance the quality of life for the poorest and most vulnerable to climate change. We support decision-makers in designing and delivering climate compatible development. CDKN s knowledge services focus on making information and learning on climate compatible development easier to access and use, in support of ambitious climate action.",
           "type": "Programme",
-          "host": " SouthSouthNorth, Fundaci'n Futuro Latinoamericano (FFLA), ICLEI, ODI",
+          "host": " SouthSouthNorth,  Fundaci n Futuro Latinoamericano (FFLA), ICLEI, ODI",
           "main_sponsor": "DFID, DGIS, Norway, Sweden, IDRC, US",
           "resilience_focus": "In part",
           "linked_to_UNCAS": "",
@@ -963,10 +621,7 @@
           "policy_planning": "1",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "1",
-          "active_corona": "1",
-          "response_corona": "Opinion blog articles on various responses to COVID-19 and future expectations.",
-          "url_corona": "https://cdkn.org/2020/04/feature-transitioning-to-a-better-global-new-normal/?loclang=en_gb https://cdkn.org/2020/04/feature-how-business-is-responding-to-covid-19-in-south-africas-poorest-urban-communities/?loclang=en_gb https://cdkn.org/2020/03/opinion-imagining-a-different-better-future/?loclang=en_gb "
+          "practice_innovation": "1"
      },
      {
           "name": "Climate Innovation Hubs",
@@ -982,10 +637,7 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "",
-          "practice_innovation": "1",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": "1"
      },
      {
           "name": "Climate Investment Platform",
@@ -1001,10 +653,23 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "1",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
+     },
+     {
+          "name": "Climate Justice Resilience Fund",
+          "url": "https://www.cjrfund.org/",
+          "summary": "Grantmaking initiative dedicated to helping women, youth, and indigenous peoples adapt and build resilience to climate change.  Focus on community-led approaches, and providing tools for affected people to assert their rights, reduce risks, manage shocks, rebound, and chart a path to sustainable development.",
+          "type": "Fund/finance",
+          "host": "New Venture Fund (NVF)",
+          "main_sponsor": "Oak Foundation",
+          "resilience_focus": "Yes",
+          "linked_to_UNCAS": "",
+          "main_geographic_focus": "Global",
+          "sector": "CSO",
+          "policy_planning": "",
+          "knowledge_learning": "",
+          "finance_budgets": "1",
+          "practice_innovation": ""
      },
      {
           "name": "Climate KIC",
@@ -1020,10 +685,7 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "",
-          "practice_innovation": "1",
-          "active_corona": "1",
-          "response_corona": "Corona Response hub",
-          "url_corona": "https://www.climate-kic.org/covid-19-response-hub/"
+          "practice_innovation": "1"
      },
      {
           "name": "Climate Knowledge Brokers (CKB) Group",
@@ -1039,10 +701,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Climate Knowledge Hub, CliK Hub",
@@ -1058,10 +717,7 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Climate Resilience",
@@ -1077,10 +733,39 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
+     },
+     {
+          "name": "Climate Resilience and Adaptation Finance and Technology-transfer Facility (CRAFT)",
+          "url": "https://www.climatefinancelab.org/project/climate-resilience-adaptation-financetransfer-facility-craft/",
+          "summary": "Blended finance structure that includes public, private, and philanthropic investors that will invest in companies that have technologies and solutions that support climate resilience.",
+          "type": "Fund/finance",
+          "host": "",
+          "main_sponsor": "",
+          "resilience_focus": "Yes",
+          "linked_to_UNCAS": "",
+          "main_geographic_focus": "Global",
+          "sector": "Public, Private & CSO",
+          "policy_planning": "",
+          "knowledge_learning": "",
+          "finance_budgets": "1",
+          "practice_innovation": ""
+     },
+     {
+          "name": "Climate Resilience Network (CRN)",
+          "url": "",
+          "summary": "An informal group of organisations working around a common agenda and narrative focused on building resilience to climate risks. The network acts as a platform for information exchange and collaboration on key issues and events on climate resilience including those under MPGCA.",
+          "type": "Network/ partnership/ platform",
+          "host": "UN",
+          "main_sponsor": "",
+          "resilience_focus": "Yes",
+          "linked_to_UNCAS": "1",
+          "main_geographic_focus": "Global",
+          "sector": "Public, Private & CSO",
+          "policy_planning": "1",
+          "knowledge_learning": "1",
+          "finance_budgets": "",
+          "practice_innovation": ""
      },
      {
           "name": "Climate Risk and Early Warning Systems (CREW) Initiative",
@@ -1096,10 +781,7 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "",
-          "practice_innovation": "1",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": "1"
      },
      {
           "name": "Climate Security Mechanism",
@@ -1115,15 +797,12 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Closing the Investment Gap (CIG)",
           "url": "",
-          "summary": "A country-led, facilitated approach in which developing countries work with the private sector and other investors in preparing their ''investment'' pitches and enhance their bankable projects. The approach targets a largely untapped pool of funds and minimises demand for public capital or credit enhancement.",
+          "summary": "A country-led, facilitated approach in which developing countries work with the private sector and other investors in preparing their   investment   pitches and enhance their bankable projects. The approach targets a largely untapped pool of funds and minimises demand for public capital or credit enhancement.",
           "type": "Fund/finance",
           "host": "",
           "main_sponsor": "",
@@ -1134,10 +813,7 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "1",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Coalition for Climate Resilient Investment (CCRI)",
@@ -1153,10 +829,7 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "1",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Coalition for Disaster Resilient Infrastructure (CDRI)",
@@ -1172,15 +845,12 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Coalition of Finance Ministers for Climate Change Action",
           "url": "https://www.cape4financeministry.org/coalition_of_finance_ministers",
-          "summary": "Driving stronger collective action on climate change and its impacts by ministries of finance. Implementing of six common principles ( 'Helsinki Principles') that promote national climate action, especially through fiscal policy and the use of public finance.",
+          "summary": "Driving stronger collective action on climate change and its impacts by ministries of finance. Implementing of six common principles (  Helsinki Principles ) that promote national climate action, especially through fiscal policy and the use of public finance.",
           "type": "Network/ partnership/ platform",
           "host": "GRP/A2R",
           "main_sponsor": "Finland, Chile",
@@ -1191,10 +861,7 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "1",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Coalition on Urban Transitions",
@@ -1210,10 +877,7 @@
           "policy_planning": "1",
           "knowledge_learning": "",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Collaborative Adaptation Research Initiative in Africa and Asia (CARIAA)",
@@ -1229,15 +893,28 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
+     },
+     {
+          "name": "Community Resilience Fund",
+          "url": "https://huairou.org/communities/community-resilience/",
+          "summary": "Innovative financial mechanism that delivers micro funding to grassroots women in disaster-prone communities. Grants help grassroots women develop their leadership and entrepreneurial skills, create livelihoods opportunities for women to reduce their community s vulnerabilities to disaster.",
+          "type": "Fund/finance",
+          "host": "Huairou Commission",
+          "main_sponsor": "Sida/Sweden",
+          "resilience_focus": "Yes",
+          "linked_to_UNCAS": "",
+          "main_geographic_focus": "Global",
+          "sector": "CSO",
+          "policy_planning": "",
+          "knowledge_learning": "",
+          "finance_budgets": "1",
+          "practice_innovation": ""
      },
      {
           "name": "Conexion COP",
           "url": "http://conexioncop.com/",
-          "summary": "Web portal of news in Spanish, created for journalists and opinion leaders in Latin America interested in covering issues related to climate change and international negotiations. Conexion COP seeks to facilitate the work of journalists and opinion leaders in the region through daily access and update of news, interviews, reports, data, key reports and stories related to climate change.",
+          "summary": "Web portal of news in Spanish, created for journalists and opinion leaders in Latin America interested in covering issues related to climate change and international negotiations. Conexion COP  seeks to facilitate the work of journalists and opinion leaders in the region through daily access and update of news, interviews, reports, data, key reports and stories related to climate change.",
           "type": "Network/ partnership/ platform",
           "host": "",
           "main_sponsor": "",
@@ -1248,15 +925,12 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "1",
-          "response_corona": "Multiple articles on the relationship between Climate Change, COVID-19.",
-          "url_corona": "http://conexioncop.com/onu-el-cambio-climatico-es-mas-mortal-que-el-coronavirus/ http://conexioncop.com/ante-la-pandemia-del-covid-19-y-la-crisis-climatica/ http://conexioncop.com/que-nos-ensena-el-coronavirus-frente-al-cambio-climatico/ http://conexioncop.com/cual-es-la-relacion-entre-el-coronavirus-y-el-manejo-de-los-ecosistemas/ "
+          "practice_innovation": ""
      },
      {
           "name": "Convergence",
           "url": "https://convergence.finance",
-          "summary": "Global network for blended finance generating data, intelligence, and deal flow to increase private sector investment in developing countries. Connects private, public, and philanthropic investors with one another, to invest in deals posted on the platform; Provides grant funding to practitioners ; and, eases the investment process for investors.",
+          "summary": "Global network for blended finance generating data, intelligence, and deal flow to increase private sector investment in developing countries. Connects private, public, and philanthropic investors with one another, to invest in deals posted on the platform; Provides grant funding to practitioners ; and, eases the investment process for  investors.",
           "type": "Network/ partnership/ platform",
           "host": "",
           "main_sponsor": "Canada",
@@ -1267,10 +941,7 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "1",
-          "response_corona": "News article on COVID-19.",
-          "url_corona": "https://www.convergence.finance/news-and-events/news/dpcDxlUX2UVdIDTt9TjAi/view"
+          "practice_innovation": ""
      },
      {
           "name": "Cool Coalition",
@@ -1286,10 +957,7 @@
           "policy_planning": "1",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Debt Swap",
@@ -1305,15 +973,12 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "1",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Delta Alliance",
           "url": "http://www.delta-alliance.org/",
-          "summary": "Delta Alliance is an international knowledge-driven network organisation with the mission of improving the resilience of the world's deltas. It brings people together who live and work in deltas. They can benefit from each other's experience and expertise and as such contribute to an increased resilience of their delta region.",
+          "summary": "Delta Alliance is an international knowledge-driven network organisation with the mission of improving the resilience of the world s deltas. It brings people together who live and work in deltas. They can benefit from each other s experience and expertise and as such contribute to an increased resilience of their delta region.",
           "type": "Network/ partnership/ platform",
           "host": "Deltares",
           "main_sponsor": "Netherlands",
@@ -1324,15 +989,12 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Disaster Risk Financing &Insurance Program, DRIP",
           "url": "https://www.gfdrr.org/fr/disaster-risk-financing-insurance-program",
-          "summary": "Disaster Risk Finance Resilient Livelihoods plans to work in Uganda, Mali, Niger, Kenya, the Philippines and Fiji. DRIP aim to increase awareness about the need to improve the relation between humanitarian efforts and long-term improvements through increased technical competence around social insurance systems.",
+          "summary": "Disaster Risk Finance Resilient Livelihoods  plans to work in Uganda, Mali, Niger, Kenya, the Philippines and Fiji. DRIP aim to increase awareness about the need to improve the relation between humanitarian efforts and long-term improvements through increased technical competence around social insurance systems.",
           "type": "Programme",
           "host": "World Bank/GFDRR",
           "main_sponsor": "Sida/Sweden",
@@ -1343,10 +1005,7 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "1",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Economic Resilience Initiative",
@@ -1362,10 +1021,7 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "1",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "EcoShape - Building with Nature platform",
@@ -1381,15 +1037,12 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "",
-          "practice_innovation": "1",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": "1"
      },
      {
           "name": "Flood Resilience Alliance",
           "url": "https://floodresilience.net/",
-          "summary": "The Zurich Flood Resilience Alliance is a multi-sectoral partnership focusing on finding practical ways to help communities in developed and developing countries strengthen their resilience to flood risk. three objectives: Increase funding for flood resilience, Support policy at global,national or sub-national level; and, improve flood resilience practice.",
+          "summary": "The Zurich Flood Resilience Alliance is a multi-sectoral partnership focusing on finding practical ways to help communities in developed and developing countries strengthen their resilience to flood risk. three objectives: Increase funding for flood resilience,  Support policy at global,national or sub-national level; and, improve flood resilience practice.",
           "type": "Network/ partnership/ platform",
           "host": "IFRC / Practical Action / Plan International / Mercy Corps / ISET / IIASA / Zurich Insurance Group",
           "main_sponsor": "Zurich Foundation",
@@ -1400,10 +1053,7 @@
           "policy_planning": "1",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "1",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": "1"
      },
      {
           "name": "Flood Resilience Portal",
@@ -1419,10 +1069,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "1",
-          "response_corona": "Blog articles on responses to COVID 19",
-          "url_corona": "https://floodresilience.net/blogs/covid-19-by-your-side https://floodresilience.net/resources/item/reducing-covid-19-vulnerability-amongst-displaced-populations-and-migrants"
+          "practice_innovation": ""
      },
      {
           "name": "Food and Land Use Coalition (FOLU)",
@@ -1438,10 +1085,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "1",
-          "response_corona": "Prepared a call to action to world leaders to encourage urgent action. Food supplies could be massively disrupted due to measures put in place to control the spread of COVID-19. The number of people suffering from chronic hunger  estimated at well over 800 million before the crisis  could jump dramatically. Governments, businesses, civil society and international agencies need to take urgent, coordinated action to prevent the COVID pandemic turning into a global food and humanitarian crisis.",
-          "url_corona": "https://www.foodandlandusecoalition.org/a-call-to-action-for-world-leaders/ https://www.foodandlandusecoalition.org/category/blog/"
+          "practice_innovation": ""
      },
      {
           "name": "Food and Nutrition Security (FSIN) Resilience Measurement Technical Working Group",
@@ -1457,10 +1101,23 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "1",
-          "response_corona": "Have created a spotlight on COVID-19 with the latest data, analyses and research on the impact of the COVID-19 pandemic on food security from members of the global data community.",
-          "url_corona": "https://www.fsinplatform.org/news"
+          "practice_innovation": ""
+     },
+     {
+          "name": "Food Security Climate Resilience Facility (FoodSECuRE)",
+          "url": "http://www.wfp.org/climate-change/initiatives/foodsecure",
+          "summary": "A multilateral, multi-year, replenishable fund being developed by WFP to financially and programmatically support community-centred action to reinforce and build climate resilience. Links climate and hazard forecasting with flexible multi-year financing, providing governments the means to quickly unlock funding to scale-up food and nutrition responses as well as disaster risk reduction.",
+          "type": "Programme",
+          "host": "WFP",
+          "main_sponsor": "",
+          "resilience_focus": "Yes",
+          "linked_to_UNCAS": "",
+          "main_geographic_focus": "Global",
+          "sector": "Public",
+          "policy_planning": "",
+          "knowledge_learning": "",
+          "finance_budgets": "",
+          "practice_innovation": "1"
      },
      {
           "name": "Friends of Ecosystem Based Adaptation (FEBA)",
@@ -1476,15 +1133,12 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
-          "name": "Fundaci'n Avina",
+          "name": "Fundaci n Avina",
           "url": "https://www.avina.net/en/home/",
-          "summary": "Foundation focused on producing large-scale changes for the sustainable development of the region by building collaboration processes between actors from different sectors to positively impact the Sustainable Development Goals. Fundaci'n Avina has identified, incubated and supported spaces, institutions and collaborative initiatives through the best opportunities for systemic change, future technologies, innovative social initiatives and new business models. Having a presence in 20 countries and operating 9 programmatic areas, Fundaci'n Avina coordinates the Innovation with Sense Platform, an alliance to accelerate social impact and promote a large-scale transformation in favor of sustainable development in Latin America,",
+          "summary": "Foundation focused on producing large-scale changes for the sustainable development of the region by building collaboration processes between actors from different sectors to positively impact the Sustainable Development Goals. Fundaci n Avina has identified, incubated and supported spaces, institutions and collaborative initiatives through the best opportunities for systemic change, future technologies, innovative social initiatives and new business models. Having a presence in 20 countries and operating 9 programmatic areas, Fundaci n Avina coordinates the Innovation with Sense Platform, an alliance to accelerate social impact and promote a large-scale transformation in favor of sustainable development in Latin America,",
           "type": "Organisation",
           "host": "",
           "main_sponsor": "",
@@ -1495,10 +1149,7 @@
           "policy_planning": "1",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "1",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": "1"
      },
      {
           "name": "Future Oceans Alliance",
@@ -1514,10 +1165,7 @@
           "policy_planning": "1",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Global Adaptation & Resilience Investment Working Group (GARI)",
@@ -1533,15 +1181,12 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "1",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Global Adaptation Network (GAN)",
           "url": "http://web.unep.org/ganadapt/global-adaptation-network",
-          "summary": "As an umbrella organization spanning most continents, GAN is composed of many constituent regional networks and partners, each of which provide knowledge services in their respective regions. This GAN 'family' is a thriving community that provides considerable benefits to its members.",
+          "summary": "As an umbrella organization spanning most continents, GAN is composed of many constituent regional networks and partners, each of which provide knowledge services in their respective regions. This GAN  family  is a thriving community that provides considerable benefits to its members.",
           "type": "Network/ partnership/ platform",
           "host": "UNEP",
           "main_sponsor": "",
@@ -1552,15 +1197,12 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Global Alliance for Action on Drought Resilience and Growth",
           "url": "https://www.usaid.gov/sites/default/files/documents/1866/Global%20Alliance%20FactSheet.pdf",
-          "summary": "The Global Alliance for Action for Drought Resilience and Growth formed in response to a call from Heads of State from East Africa's Intergovernmental Authority on Development (IGAD) to end recurrent drought emergencies in the Horn. It brings together relief and development actors and resources to take joint action on building resilience in the Horn of Africa and the Sahel.",
+          "summary": "The Global Alliance for Action for Drought Resilience and Growth formed in response to a call from Heads of State from East Africa s Intergovernmental Authority on Development (IGAD) to end recurrent drought emergencies in the Horn. It brings together relief and development actors and resources to take joint action on building resilience in the Horn of Africa and the Sahel.",
           "type": "Network/ partnership/ platform",
           "host": "USAID convener with IGAD",
           "main_sponsor": "",
@@ -1571,10 +1213,7 @@
           "policy_planning": "1",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Global Alliance for Buildings and Construction",
@@ -1590,10 +1229,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Global Alliance for Climate Smart Agriculture (GACSA)",
@@ -1609,10 +1245,7 @@
           "policy_planning": "1",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "1",
-          "active_corona": "1",
-          "response_corona": "The Global Alliance for Climate-Smart Agriculture (GACSA) Calls for Coordinated Approaches Amid COVID-19",
-          "url_corona": "http://www.fao.org/fileadmin/user_upload/gacsa/NEW_GACSA_-_COVID19_Response.pdf"
+          "practice_innovation": "1"
      },
      {
           "name": "Global Alliance for Urban Crises",
@@ -1628,15 +1261,12 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Global Campaign for Nature",
           "url": "",
-          "summary": "Coalition of scientists, government leaders, NGOs, businesses and philanthropists committed to conserving 30% of the Earth's land and ocean by 2030 and contribute to the Paris goals through NBS by: 1) creating and expanding terrestrial and marine protected areas by 30%; 2) restoring degraded ecosystems; 3) increasing funding for NBS, for protection and sustainable management of high ecologicalvalue ecosystems; and 4) enhancing NDCs by including NBS.",
+          "summary": "Coalition of scientists, government leaders, NGOs, businesses and philanthropists committed to conserving 30% of the Earth s land and ocean by 2030 and contribute to the Paris goals through NBS by: 1) creating and expanding terrestrial and marine protected areas by 30%; 2) restoring degraded ecosystems; 3) increasing funding for NBS, for protection and sustainable management of high ecologicalvalue ecosystems; and 4) enhancing NDCs by including NBS.",
           "type": "Network/ partnership/ platform",
           "host": "UNEP",
           "main_sponsor": "Costa Rica",
@@ -1647,10 +1277,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Global Centre for Adaptation",
@@ -1666,10 +1293,7 @@
           "policy_planning": "1",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "1",
-          "active_corona": "1",
-          "response_corona": "Blog articles on responses to COVID 19",
-          "url_corona": "https://gca.org/solutions"
+          "practice_innovation": "1"
      },
      {
           "name": "Global Climate Action portal",
@@ -1685,15 +1309,12 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Global Climate Change Alliance Plus (GCCA+)",
           "url": "http://www.gcca.eu",
-          "summary": "GCCA+ is an EU flagship initiative which is helping the world's most vulnerable countries to address climate change. it has become a major climate initiative that has funded over 70 projects of national, regional and worldwide. The initiative helps mainly Small Islands Developing States (SIDS) and Least Developed Countries (LDCs) increase their resilience to climate change.",
+          "summary": "GCCA+ is an EU flagship initiative which is helping the world's most vulnerable countries to address climate change.  it has become a major climate initiative that has funded over 70 projects of national, regional and worldwide. The initiative helps mainly Small Islands Developing States (SIDS) and Least Developed Countries (LDCs) increase their resilience to climate change.",
           "type": "Programme",
           "host": "EU",
           "main_sponsor": "EU",
@@ -1704,10 +1325,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "1",
-          "active_corona": "1",
-          "response_corona": "Blogs on: Effect of Coronavirus on GCCA+ countries and a ray of hope from Italy: coronavirus and climate",
-          "url_corona": "https://www.gcca.eu/stories/what-does-coronavirus-mean-gcca-countries https://www.gcca.eu/stories/ray-hope-italy-coronavirus-and-climate"
+          "practice_innovation": "1"
      },
      {
           "name": "Global Climate Partnership Fund",
@@ -1723,10 +1341,7 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "1",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Global Commission on Adpatation",
@@ -1742,15 +1357,12 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "1",
-          "response_corona": "Article on climate change lessons from COVID 19 with CNN",
-          "url_corona": "https://edition.cnn.com/2020/04/09/opinions/climate-change-lessons-from-covid-19-ban-verkooijen/index.html"
+          "practice_innovation": ""
      },
      {
           "name": "Global Facility for Disaster Reduction and Recovery (GFDRR)",
           "url": "www.gfdrr.org",
-          "summary": "GFDRR is a global partnership that helps developing countries better understand and reduce their vulnerability to natural hazards and climate change. It helps countries to integrate disaster risk management and climate change adaptation into development strategies and investment programs and recover from disasters quickly and effectively. ",
+          "summary": "GFDRR is a global partnership that helps developing countries better understand and reduce their vulnerability to natural hazards and climate change. It helps countries to integrate disaster risk management and climate change adaptation into development strategies and investment programs and recover from disasters quickly and effectively.\n",
           "type": "Network/ partnership/ platform",
           "host": "World Bank",
           "main_sponsor": "EU, SIDA and others",
@@ -1761,10 +1373,7 @@
           "policy_planning": "1",
           "knowledge_learning": "1",
           "finance_budgets": "1",
-          "practice_innovation": "",
-          "active_corona": "1",
-          "response_corona": "Coronavirus Speaker Series: Sharing Knowledge to Respond with Resilience is a weekly session organized by the Global Resilient Cities Network and the World Bank as a knowledge sharing session for cities in response to the rapidly evolving COVID-19 situation.",
-          "url_corona": "https://medium.com/@resilientcitiesnetwork/coronavirus-speaker-series-sharing-knowledge-to-respond-with-resilience-5a8787a1eef5"
+          "practice_innovation": ""
      },
      {
           "name": "Global Framework for Climate Services Office",
@@ -1780,10 +1389,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Global Green Growth Institute (GGGI)",
@@ -1799,15 +1405,12 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "1",
-          "response_corona": "GGGI has started to adapt its programming to green stimulus and recovery packages in the face of COVID-19.",
-          "url_corona": "https://gggi.org/site/assets/uploads/2020/04/Update-GGGI-COVID-April-23-2020-Final.pdf"
+          "practice_innovation": ""
      },
      {
           "name": "Global Innovation Lab for Climate Finance -",
           "url": "http://climatefinancelab.org/",
-          "summary": "The Lab network accelerates the design of financial instruments that can unlock billions for energy efficiency, renewable energy, sustainable transport, climate smart agriculture, and curbing deforestation. A public-private partnership, the Lab brings together and catalyses broader government and private sector efforts to scale up climate finance.",
+          "summary": "The Lab network accelerates the design of financial instruments that can unlock billions for energy efficiency, renewable energy, sustainable transport, climate smart agriculture, and curbing deforestation. A public-private partnership, the Lab brings together and catalyses broader government and private sector efforts to scale up climate finance. ",
           "type": "Programme",
           "host": "CPI",
           "main_sponsor": "UK, US, Germany, the Netherlands, Bloomberg Philanthropies, Rockefeller Foundation",
@@ -1818,10 +1421,7 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "1",
-          "practice_innovation": "1",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": "1"
      },
      {
           "name": "Global Island Partnership",
@@ -1837,15 +1437,12 @@
           "policy_planning": "1",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Global Landscape Forum",
           "url": "http://www.landscapes.org/",
-          "summary": "GLF is a movement that puts communities first in addressing landscape-level issues. Founded on four principles, aiming to engage 1 billion people: connecting, sharing, learning and acting. It is the world's largest science-led platform on sustainable land use.",
+          "summary": "GLF is a movement that puts communities first in addressing landscape-level issues. Founded on four principles, aiming to engage 1 billion people: connecting, sharing, learning and acting. It is the world s largest science-led platform on sustainable land use.",
           "type": "Network/ partnership/ platform",
           "host": "CIFOR",
           "main_sponsor": "",
@@ -1856,10 +1453,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "1",
-          "response_corona": "Multiple articles on the relationship between Climate Change and COVID-19.",
-          "url_corona": "https://news.globallandscapesforum.org/"
+          "practice_innovation": ""
      },
      {
           "name": "Global Ocean Forum",
@@ -1875,10 +1469,7 @@
           "policy_planning": "1",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Global Peatland Initiative",
@@ -1894,15 +1485,28 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
+     },
+     {
+          "name": "Global Resilience Partnership (GRP)",
+          "url": "http://www.globalresiliencepartnership.org/",
+          "summary": "Aims to help millions of vulnerable people in the Sahel, the Horn of Africa, and South and Southeast Asia better adapt to shocks and chronic stresses and invest in a more resilient future. Focus on finding new ways of dealing with intractable issues. It is organized around three impact pathways:  Knowledge Brokering; Policy Engagement, Innovation; and Business and Investment.",
+          "type": "Network/ partnership/ platform",
+          "host": "Stockholm Resilience Centre with KPMG managing two funds",
+          "main_sponsor": "USAID, SIDA, RF, Zurich",
+          "resilience_focus": "Yes",
+          "linked_to_UNCAS": "",
+          "main_geographic_focus": "Global",
+          "sector": "Public, Private & CSO",
+          "policy_planning": "1",
+          "knowledge_learning": "1",
+          "finance_budgets": "",
+          "practice_innovation": "1"
      },
      {
           "name": "Global Resource Initiative Taskforce",
           "url": "https://www.gov.uk/government/news/global-resource-initiative-taskforce-greening-the-uks-environmental-footprint",
-          "summary": "Leading businesses including Legal & General, Cargill, McDonald's and Tesco will take part together with the Green Finance Institute, WWF and Forest Coalition. They will help to investigate how the supply chain of key commodities, such as palm oil, soya and beef can be fully sustainable.",
+          "summary": "Leading businesses including Legal & General, Cargill, McDonald s and Tesco will take part together with the Green Finance Institute, WWF and Forest Coalition. They will help to investigate how the supply chain of key commodities, such as palm oil, soya and beef can be fully sustainable.",
           "type": "Network/ partnership/ platform",
           "host": "",
           "main_sponsor": "Defra",
@@ -1913,10 +1517,7 @@
           "policy_planning": "1",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Global Restoration Initiative",
@@ -1932,10 +1533,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Global Water Forum",
@@ -1951,15 +1549,12 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Global Water Partnership (GWP)",
           "url": "http://www.gwp.org/en/",
-          "summary": "GWP is a global action network with over 3,000 Partner organisations in 183 countries. The network has 86 Country Water Partnerships and 13 Regional Water Partnerships. GWP's VISION is a water secure world. Its mission is to advance governance and management of water resources for sustainable and equitable development.",
+          "summary": "GWP is a global action network with over 3,000 Partner organisations in 183 countries. The network has 86 Country Water Partnerships and 13 Regional Water Partnerships.  GWP s VISION is a water secure world. Its mission is to advance governance and management of water resources for sustainable and equitable development.",
           "type": "Network/ partnership/ platform",
           "host": "",
           "main_sponsor": "Sida /Sweden, UK and others",
@@ -1970,15 +1565,12 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "1",
-          "response_corona": "During these difficult times, GWP's unique global network and competencies are and will remain in keeping attention on the water security agenda.",
-          "url_corona": "https://www.gwp.org/en/About/covid-19/how-gwp-responds-to-the-covid-19-crisis/"
+          "practice_innovation": ""
      },
      {
           "name": "Green Climate Fund (GCF)",
           "url": "http://www.greenclimate.fund",
-          "summary": "GCF was created to support the efforts of developing countries to respond to the challenge of climate change. GCF helps developing countries limit or reduce their GHG emissions and adapt to climate change. Aims to catalyze a flow of climate finance to invest in low-emission and climate-resilient development, driving a paradigm shift in the global response to climate change.",
+          "summary": "GCF was created to support the efforts of developing countries to respond to the challenge of climate change. GCF helps developing countries limit or reduce their GHG emissions and adapt to climate change.  Aims to catalyze a flow of climate finance to invest in low-emission and climate-resilient development, driving a paradigm shift in the global response to climate change.",
           "type": "Fund/finance",
           "host": "GCF",
           "main_sponsor": "",
@@ -1989,15 +1581,12 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "1",
-          "practice_innovation": "",
-          "active_corona": "1",
-          "response_corona": "The Green Climate Fund (GCF) is committed to ensuring that the world that emerges from the pandemic is one that is more aligned on a climate smart path.",
-          "url_corona": "https://www.greenclimate.fund/news/responding-impacts-covid-19-global-pandemic-interlinkages-between-people-planet-and-prosperity"
+          "practice_innovation": ""
      },
      {
           "name": "Guidance for Resilience in the Anthropocene: Investments for development (GRAID)",
           "url": "http://www.stockholmresilience.org/policy--practice/graid.html",
-          "summary": "To enhance the integration between development and resilience and strengthen SRC efforts to locate potentials, synergies and barriers between resilience and international development policies and practices.",
+          "summary": "To enhance the integration between development and resilience  and strengthen SRC efforts to locate potentials, synergies and barriers between resilience and international development policies and practices.",
           "type": "Programme",
           "host": "SRC",
           "main_sponsor": "Sida/Sweden as part of GRP",
@@ -2008,14 +1597,11 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "High-level Panel for a Sustainable Ocean Economy",
-          "url": "https://www.oceanpanel.org/",
+          "url": "",
           "summary": " 1) investing in nature-based solutions by restoring, protecting and managing coastal and marine ecosystems; 2) harnessing ocean-based renewable energy by scaling-up offshore and ocean-based renewable energy; 3) decarbonizing ocean industries and increasing investments in solutions to decarbonize shipping and marine transport, port infrastructure and operations, fisheries, aquaculture and tourism; and 4) advancing carbon capture and storage (each of the 14 countries of the Panel has specific individual commitments)",
           "type": "Network/ partnership/ platform",
           "host": "WRI, UNEP",
@@ -2027,13 +1613,10 @@
           "policy_planning": "1",
           "knowledge_learning": "",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
-          "name": "ICLEI  Local Governments for Sustainability",
+          "name": "ICLEI   Local Governments for Sustainability",
           "url": "https://www.iclei.org/en/About_ICLEI_2.html",
           "summary": "Global network of more than 1,750 local and regional governments committed to sustainable urban development.",
           "type": "Network/ partnership/ platform",
@@ -2046,15 +1629,12 @@
           "policy_planning": "1",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "1",
-          "response_corona": "Newsletter with message from ICLEI's secretary general, news from ICLEI network and opportunities for aaction including webinars and workshops held during March.",
-          "url_corona": "https://mailchi.mp/iclei/inews-how-covid-19-is-affecting-city-sustainability-officers-and-more-982085?e=27bd672881"
+          "practice_innovation": ""
      },
      {
           "name": "Initiative on Gender and Climate Change",
           "url": "",
-          "summary": "51 countries have committed to implementing climate actions that contribute to gender equality and the empowerment of women and girls. This commitment recognizes the differentiated impact of climate change by gender, and that ensuring women's and girls' agency and leadership will make climate action more effective, contributing to increased ambition in all sectors",
+          "summary": "51 countries have committed to implementing climate actions that contribute to gender equality and the empowerment of women and girls. This commitment recognizes the differentiated impact of climate change by gender, and that ensuring women s and girls  agency and leadership will make climate action more effective, contributing to increased ambition in all sectors",
           "type": "Network/ partnership/ platform",
           "host": "UNWomen",
           "main_sponsor": "Costa Rica, Peru",
@@ -2065,15 +1645,12 @@
           "policy_planning": "1",
           "knowledge_learning": "",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "1",
-          "response_corona": "Under UN Women the main host for the initiative, multiple blogs have been written regarding the role of women during the pandemic as well as it's effect on women.",
-          "url_corona": "https://www.unwomen.org/en/news/stories"
+          "practice_innovation": ""
      },
      {
           "name": "Insurance Development Forum (IDF)",
           "url": "http://theidf.org/",
-          "summary": "The IDF is a public/private partnership led by the insurance industry and supported by international organisations. The IDF aims to optimise and extend the use of insurance and its related risk management capabilities to build greater resilience and protection for people, communities, businesses, and public institutions.",
+          "summary": "The IDF is a public/private partnership led by the insurance industry and supported by international organisations.  The IDF aims to optimise and extend the use of insurance and its related risk management capabilities to build greater resilience and protection for people, communities, businesses, and public institutions.",
           "type": "Network/ partnership/ platform",
           "host": "Willis Tower Watson",
           "main_sponsor": "Self funded",
@@ -2084,13 +1661,42 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "1",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
-          "name": "Intercambio Clim'tico",
+          "name": "InsuResilience Global Partnership",
+          "url": "http://www.insuresilience.org/",
+          "summary": "The vision is to strengthen the resilience of developing countries and to protect the lives and livelihoods of poor and vulnerable people from the impacts of disasters by enabling faster, more reliable and cost-effective responses. Seeks to amplify the impact of ongoing initiatives, develop new climate and disaster risk finance and insurance solutions to help meet the needs in developing countries, and ensure risk financing is integrated within disaster risk management and humanitarian financing.",
+          "type": "Network/ partnership/ platform",
+          "host": "GIZ",
+          "main_sponsor": "G7, EU, Netherlands",
+          "resilience_focus": "Yes",
+          "linked_to_UNCAS": "",
+          "main_geographic_focus": "Global",
+          "sector": "Public & Private",
+          "policy_planning": "1",
+          "knowledge_learning": "1",
+          "finance_budgets": "",
+          "practice_innovation": "1"
+     },
+     {
+          "name": "Integrated Approach Programme on Fostering Sustainability and Resilience for Food Security in sub-Saharan Africa.",
+          "url": "https://ifad-un.blogspot.com/2015/10/integrated-approach-programme-on.html",
+          "summary": "Programme to  support countries on national policies and farmer practices that safeguard food production to ensure the sustainability and resilience required to feed their people. $116 million to support twelve countries (Burkina Faso, Burundi, Ethiopia, Ghana, Kenya, Malawi, Niger, Nigeria, Senegal, Swaziland.",
+          "type": "Programme",
+          "host": "IFAD",
+          "main_sponsor": "GEF",
+          "resilience_focus": "Yes",
+          "linked_to_UNCAS": "",
+          "main_geographic_focus": "Regional - Africa",
+          "sector": "Public, Private & CSO",
+          "policy_planning": "",
+          "knowledge_learning": "1",
+          "finance_budgets": "",
+          "practice_innovation": "1"
+     },
+     {
+          "name": "Intercambio Clim tico",
           "url": "",
           "summary": "Latin American Platform on Climate. Group of 22 civil society organisations from 9 countries.",
           "type": "Network/ partnership/ platform",
@@ -2103,10 +1709,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "-88",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "International Platform on Adaptation Metrics (IPAM)",
@@ -2122,10 +1725,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "-88",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "JPI Climate",
@@ -2141,13 +1741,10 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
-          "name": "KORE  Knowledge Resilience",
+          "name": "KORE   Knowledge Resilience",
           "url": "http://www.fao.org/in-action/kore/background/en/",
           "summary": "Knowledge sharing platform to support building resilience to food insecurity and malnutrition in the face of shocks and stresses.",
           "type": "Network/ partnership/ platform",
@@ -2160,10 +1757,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "1",
-          "response_corona": "The main host FAO response to COVID 19: FAO has implemented an array of tools to support policy analyses and assess the impact of COVID-19 on on food and agriculture, value chains, food prices, food security across the globe.",
-          "url_corona": "http://www.fao.org/2019-ncov/en/"
+          "practice_innovation": ""
      },
      {
           "name": "Kwon-Gesh Climate Pledge",
@@ -2179,10 +1773,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Land: Enhancing Governance for Economic Development (LEGEND)",
@@ -2198,10 +1789,7 @@
           "policy_planning": "1",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "LatinClima",
@@ -2217,10 +1805,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "1",
-          "response_corona": "Multiple articles on the relationship between Climate Change, COVID-19.",
-          "url_corona": "https://latinclima.org/articulos/ante-la-pandemia-del-covid-19-y-la-crisis-climatica https://latinclima.org/articulos/que-tiene-que-ver-el-covid-19-con-la-crisis-climatica-y-ambiental "
+          "practice_innovation": ""
      },
      {
           "name": "LDC Initiative for Effective Adaptation and Resilience (LIFE-AR)",
@@ -2236,10 +1821,7 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "LDC Renewable Energy and Energy Efficiency Initiative (LDC REEEI)",
@@ -2255,15 +1837,12 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Leadership Group for Industry Transition",
           "url": "",
-          "summary": "led by Sweden and India with support from the WEF, the leadership group is committed to guide the world's heaviest greenhouse gas emitting industries toward zero net emissions by 2050 and to ensure that heavy industries and mobility companies can find a workable pathway to deliver on the Paris Agreement.",
+          "summary": "led by Sweden and India with support from the WEF, the leadership group is committed to guide the world s heaviest greenhouse gas emitting industries toward zero net emissions by 2050 and to ensure that heavy industries and mobility companies can find a workable pathway to deliver on the Paris Agreement.",
           "type": "Network/ partnership/ platform",
           "host": "",
           "main_sponsor": "India, sweden",
@@ -2274,10 +1853,7 @@
           "policy_planning": "1",
           "knowledge_learning": "",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Leadership of Urban Climate Investments (LUCI)",
@@ -2293,10 +1869,7 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "1",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Least Developed Countries Fund (LDCF)",
@@ -2312,10 +1885,7 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "1",
-          "response_corona": "The main host GEF has created a COVID-19 updates page on it's website that is regularly updated.",
-          "url_corona": "https://www.thegef.org/news/covid-19-updates-gef-partnership"
+          "practice_innovation": ""
      },
      {
           "name": "Least Developed Countries Universities Consortium on Climate Change (LUCCC) -",
@@ -2331,15 +1901,12 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Lima Adaptation Knowledge Initiative (LAKI)",
           "url": "https://unfccc.int/topics/adaptation-and-resilience/workstreams/nairobi-work-programme-nwp/the-lima-adaptation-knowledge-initiative",
-          "summary": "strives to help identify and prioritize adaptation knowledge gaps, and catalyze action to bridge these gaps. Activities under the initiative support the NWP's role as a knowledge-for-action hub for adaptation and'resilience under the Convention.",
+          "summary": "strives to help identify and prioritize adaptation knowledge gaps, and catalyze action to bridge these gaps. Activities under the initiative support the NWP s role as a knowledge-for-action hub for adaptation and resilience under the Convention.",
           "type": "Programme",
           "host": "UNFCCC",
           "main_sponsor": "",
@@ -2350,10 +1917,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "1",
-          "response_corona": "The main host UNFCCC response: In unison with the UN family, while addressing the COVID-19 crisis, UN Climate Change continues its important work. Climate change and COVID-19 are not the same, but what is, is the concept of humanity working towards a common goal for the benefit of all people.",
-          "url_corona": "https://unfccc.int/news/open-letter-by-the-executive-secretary-on-covid-19"
+          "practice_innovation": ""
      },
      {
           "name": "Making Cities Resilient",
@@ -2369,10 +1933,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "NAPS Community",
@@ -2388,10 +1949,7 @@
           "policy_planning": "1",
           "knowledge_learning": "",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "National Adaptation Plan (NAP) Global Network",
@@ -2407,10 +1965,7 @@
           "policy_planning": "1",
           "knowledge_learning": "",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Nature for Climate",
@@ -2426,10 +1981,7 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "1",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Navigating a Changing Climate",
@@ -2445,10 +1997,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "NDC Partnership",
@@ -2464,15 +2013,12 @@
           "policy_planning": "1",
           "knowledge_learning": "",
           "finance_budgets": "1",
-          "practice_innovation": "",
-          "active_corona": "1",
-          "response_corona": "Engaging with leading climate experts for virtual discussion on the COVID-19 recovery and the lessons and implications for climate change.",
-          "url_corona": "https://ndcpartnership.org/news/covid-19-recovery-and-climate-change"
+          "practice_innovation": ""
      },
      {
           "name": "New Climate Economy (NCE)",
           "url": "http://newclimateeconomy.net/",
-          "summary": "The New Climate Economy is a major international initiative that examines how countries can achieve economic growth while dealing with the risks posed by climate change. Supports the'Global Commission on the Economy and Climate, comprised of former heads of government and finance ministers and leaders in the fields of economics and business.",
+          "summary": "The New Climate Economy is a major international initiative that examines how countries can achieve economic growth while dealing with the risks posed by climate change. Supports the Global Commission on the Economy and Climate, comprised of former heads of government and finance ministers and leaders in the fields of economics and business.",
           "type": "Programme",
           "host": "WRI/ODI/CPI",
           "main_sponsor": "Colombia, Ethiopia, Indonesia, Norway, South Korea, Sweden and the United Kingdom",
@@ -2483,10 +2029,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "1",
-          "response_corona": "Published commentary: A global response to COVID-19 that doesn't fully support developing countries is no response at all",
-          "url_corona": "http://newclimateeconomy.net/content/commentary-global-response-covid-19-doesn%E2%80%99t-fully-support-developing-countries-no-response"
+          "practice_innovation": ""
      },
      {
           "name": "Ocean Risk and Resilience Action Alliance (ORRAA)",
@@ -2502,10 +2045,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "1",
-          "practice_innovation": "1",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": "1"
      },
      {
           "name": "One Billion Coalition for Resilience (1BC)",
@@ -2521,15 +2061,12 @@
           "policy_planning": "1",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "1",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": "1"
      },
      {
           "name": "One Planet Business for Biodiversity",
           "url": "https://op2b.org/",
-          "summary": "Action-oriented business coalition of nineteen forward-thinking, agriculture-centric companies working together to preserve biodiversity. OP2B actions focus around three pillars: 1) scaling-up regenerative agricultural practices; 2) boosting cultivated biodiversity and diets through product portfolios; and 3) eliminating deforestation, enhancing forest management and restoration to mitigate climate change and protecting high-value natural ecosystems.",
+          "summary": "Action-oriented business coalition of nineteen forward-thinking, agriculture-centric companies working together to preserve biodiversity.  OP2B actions focus around three pillars: 1) scaling-up regenerative agricultural practices; 2) boosting cultivated biodiversity and diets through product portfolios; and 3) eliminating deforestation, enhancing forest management and restoration to mitigate climate change and protecting high-value natural ecosystems.",
           "type": "Network/ partnership/ platform",
           "host": "WBCSD",
           "main_sponsor": "",
@@ -2540,10 +2077,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Pacific NDC Hub",
@@ -2559,15 +2093,12 @@
           "policy_planning": "1",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Pacific Resilience Partnership (PRP)",
-          "url": "http://www.resilientpacific.org/pacific-resilience-partnership/",
-          "summary": "PRP was created by Pacific leaders to implement the Framework for Resilient Development in the Pacific. It is coming together of all actors across the region to help each other address more meaningfully the development challenges posed by climate change and disaster.",
+          "url": "",
+          "summary": "PRP was created by Pacific leaders to implement the Framework for Resilient Development in the Pacific. It is  coming together of all actors across the region to help each other address more meaningfully the development challenges posed by climate change and disaster.",
           "type": "Network/ partnership/ platform",
           "host": "",
           "main_sponsor": "Australia",
@@ -2578,10 +2109,23 @@
           "policy_planning": "1",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
+     },
+     {
+          "name": "Partners for Resilience (PfR)",
+          "url": "http://www.partnersforresilience.nl/en/",
+          "summary": "Partners for Resilience is an alliance of dutch humanitarian, development, climate and environmental civil society organisations. Aims at strengthening CSOs at global, national and local level by focusing on a sound knowledge basis and improved capacity to argue for IRM in their own socio-economic and political context.",
+          "type": "Programme",
+          "host": "Netherlands Red Cross (lead of the alliance)",
+          "main_sponsor": "Ministry of Foreign Affairs - the Netherlands",
+          "resilience_focus": "Yes",
+          "linked_to_UNCAS": "",
+          "main_geographic_focus": "Global",
+          "sector": "CSO",
+          "policy_planning": "1",
+          "knowledge_learning": "1",
+          "finance_budgets": "",
+          "practice_innovation": "1"
      },
      {
           "name": "Partnership for Environment and Disaster Risk Reduction (PEDRR)",
@@ -2597,10 +2141,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Pathways to Low-Carbon & Resilient Development",
@@ -2616,10 +2157,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Pilot Program for Climate Resilience (PPCR)",
@@ -2635,10 +2173,7 @@
           "policy_planning": "1",
           "knowledge_learning": "",
           "finance_budgets": "1",
-          "practice_innovation": "1",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": "1"
      },
      {
           "name": "Principles for Responsible Investment (PRI)",
@@ -2654,10 +2189,7 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "1",
-          "practice_innovation": "",
-          "active_corona": "1",
-          "response_corona": "The PRI works with signatories to further develop thinking on what the COVID-19 crisis means for investors.",
-          "url_corona": "https://www.unpri.org/covid-19"
+          "practice_innovation": ""
      },
      {
           "name": "Principles for Sustainable Insurance",
@@ -2673,10 +2205,7 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "1",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Private Infrastructure Development Group (PIDG)",
@@ -2692,10 +2221,7 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "1",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "R4 Rural Resilience Initiative",
@@ -2711,10 +2237,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "1",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": "1"
      },
      {
           "name": "Rebuild by Design",
@@ -2730,10 +2253,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Regional Center for Climate Change and Decision Making",
@@ -2749,10 +2269,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Regional Getaway for Technology Transfer and Climate Change Action for Latin America and the Caribbean (REGATTA)",
@@ -2768,10 +2285,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "1",
-          "response_corona": "Published: Post-COVID-19 recovery",
-          "url_corona": "http://cambioclimatico-regatta.org/index.php/en/documents-and-tools/category/recuperacion-economica-p"
+          "practice_innovation": ""
      },
      {
           "name": "Regions4 (RegionsAdapt initiative)",
@@ -2787,15 +2301,44 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "1",
-          "response_corona": "Regions4 Secretariat has compiled some of the resources available to date to help regions and other levels of government inform, engage and assess their responses.",
-          "url_corona": "https://www.regions4.org/news/resources-to-address-the-covid-19-crisis/"
+          "practice_innovation": ""
+     },
+     {
+          "name": "Resilience Africa Network",
+          "url": "http://www.ranlab.org/",
+          "summary": "Partnership of 18 African universities in 13 countries. RAN is one of eight development labs under the Higher Education Solutions Network (HESN), USAID. Objectives: 1. Design and operationalize a resilience framework for Sub-Saharan Africa. 2. Strengthen resilience at the individual, household and community levels. 3. Enhance and share resilience-related knowledge.",
+          "type": "Network/ partnership/ platform",
+          "host": "Makerere, Standford and George Washington Univerisities.",
+          "main_sponsor": "",
+          "resilience_focus": "Yes",
+          "linked_to_UNCAS": "",
+          "main_geographic_focus": "Regional - Africa",
+          "sector": "Public & CSO",
+          "policy_planning": "",
+          "knowledge_learning": "1",
+          "finance_budgets": "",
+          "practice_innovation": ""
+     },
+     {
+          "name": "Resilience Alliance",
+          "url": "www.resalliance.org",
+          "summary": " International, multidisciplinary research organization that explores the dynamics of social-ecological systems. RA members collaborate across disciplines to advance the understanding and practical application of resilience, adaptive capacity, and transformation of societies and ecosystems in order to cope with change and support human well-being.",
+          "type": "Network/ partnership/ platform",
+          "host": "",
+          "main_sponsor": "",
+          "resilience_focus": "Yes",
+          "linked_to_UNCAS": "",
+          "main_geographic_focus": "Global",
+          "sector": "Public, Private & CSO",
+          "policy_planning": "",
+          "knowledge_learning": "1",
+          "finance_budgets": "",
+          "practice_innovation": ""
      },
      {
           "name": "Resilience and Adaptation Initiative (READI)",
           "url": "https://www.bsr.org/collaboration/groups/resilience-and-adaptation-initiative",
-          "summary": "BSR's Resilience and Adaptation Initiative (READI) is a new corporate platform in which businesses can develop practical strategies for enhancing resilience to climate risk across the value chain, while also improving their ability to catalyze broader societal resilience.",
+          "summary": "BSR s Resilience and Adaptation Initiative (READI) is a new corporate platform in which businesses can develop practical strategies for enhancing resilience to climate risk across the value chain, while also improving their ability to catalyze broader societal resilience.",
           "type": "Network/ partnership/ platform",
           "host": "Business for Social Responsibility (BSR)",
           "main_sponsor": "",
@@ -2806,10 +2349,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Resilience Evaluation, Analysis and Learning (REAL) consortium",
@@ -2825,10 +2365,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Resilience Evidence for Decisions in Development Initiative (REDDI)",
@@ -2844,10 +2381,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Resilience Frontiers",
@@ -2863,15 +2397,28 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
+     },
+     {
+          "name": "Resilience Measurement - MEL Community of Practice",
+          "url": "http://www.measuringresilience.org/",
+          "summary": "The Community of Practice is a network of 180+ resilience measurement and monitoring, evaluation and learning specialists from around the world. Its aims are to strengthen evidence of what works to increase the capacity of individuals, communities and systems to be more resilient influence development practice, policy and investments across diverse sectors and geographies.",
+          "type": "Network/ partnership/ platform",
+          "host": "GRP",
+          "main_sponsor": "Rockefeller Foundation",
+          "resilience_focus": "Yes",
+          "linked_to_UNCAS": "",
+          "main_geographic_focus": "Global",
+          "sector": "Public & CSO",
+          "policy_planning": "",
+          "knowledge_learning": "1",
+          "finance_budgets": "",
+          "practice_innovation": ""
      },
      {
           "name": "Resilient coasts' initiative (Mangroves for the Future)",
           "url": "https://www.mangrovesforthefuture.org/",
-          "summary": "MFF is a partner-led initiative to promote investment in coastal ecosystem conservation for sustainable development. It provides a platform for collaboration among the many different agencies, sectors and countries which are addressing challenges to coastal ecosystem and livelihood issues. The goal is to promote an integrated ocean-wide approach to coastal management and to building the resilience of ecosystem-dependent coastal communities",
+          "summary": "MFF is a partner-led initiative to promote investment in coastal ecosystem conservation for sustainable development. It provides a platform for collaboration among the many different agencies, sectors and countries which are addressing challenges to coastal ecosystem and livelihood issues.  The goal is to promote an integrated ocean-wide approach to coastal management and to building the resilience of ecosystem-dependent coastal communities",
           "type": "Network/ partnership/ platform",
           "host": "IUCN & UNDP",
           "main_sponsor": "Sida/Sweden and others",
@@ -2882,10 +2429,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "1",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Resilient livelihoods and landscapes",
@@ -2901,10 +2445,7 @@
           "policy_planning": "1",
           "knowledge_learning": "1",
           "finance_budgets": "1",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Rethink",
@@ -2920,10 +2461,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Risk-informed Early Action Partnership (REAP)",
@@ -2939,10 +2477,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "1",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": "1"
      },
      {
           "name": "Scaling Up Nutrition (SUN)",
@@ -2958,10 +2493,7 @@
           "policy_planning": "1",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "1",
-          "active_corona": "1",
-          "response_corona": "Created a knowledge hub that aims to be a resource for all members of the SUN Movement to get informed about COVID-19 developments, at large. It also sheds light on important links between COVID-19 and nutrition, hunger, health and food systems  by bringing together important updates, guidance, articles and opinion pieces, in its initial stage.",
-          "url_corona": "https://scalingupnutrition.org/covid19/"
+          "practice_innovation": "1"
      },
      {
           "name": "SE4ALL",
@@ -2977,10 +2509,7 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "1",
-          "response_corona": "Adjusted existing programs and launched new initiatives to support the global COVID-19 response.",
-          "url_corona": "https://www.seforall.org/covid-19-response"
+          "practice_innovation": ""
      },
      {
           "name": "Special Climate Change Fund (SCCF)",
@@ -2996,10 +2525,7 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "1",
-          "response_corona": "The main host GEF has created a COVID-19 updates page on it's website that is regularly updated.",
-          "url_corona": "https://www.thegef.org/news/covid-19-updates-gef-partnership"
+          "practice_innovation": ""
      },
      {
           "name": "Start Network",
@@ -3015,10 +2541,7 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "1",
-          "response_corona": "Created Start Fund COVID-19: The new fund is part of the Start Network's existing funding mechanism, the Start Fund, and provides rapid funding for small to medium responses at the local level, to address neglected or underfunded aspects of the broader COVID-19 crisis, with a focus on neglected communities and geographies and early action and anticipation",
-          "url_corona": "https://startnetwork.org/covid-19"
+          "practice_innovation": ""
      },
      {
           "name": "Sustainable Insurance Facility (SIF)",
@@ -3034,10 +2557,7 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "1",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Task Force on Climate-related Financial Disclosures",
@@ -3053,10 +2573,7 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "1",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Tenure facility",
@@ -3072,10 +2589,7 @@
           "policy_planning": "1",
           "knowledge_learning": "",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "The National Adaptation Plan Global Support Programme (NAP-GSP)",
@@ -3091,15 +2605,12 @@
           "policy_planning": "1",
           "knowledge_learning": "",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "The Sowing Diversity = Harvesting Security (SD=HS) programme.",
           "url": "https://www.sdhsprogram.org/",
-          "summary": "Global programme to empower indigenous peoples and smallholder farmers to uphold, strengthen and mainstream the rights for food and nutrition security in the context of climate change adaptation. Addresses the interconnectedness of food systems as well as the active participation of the poor in achieving inclusive policy governance, and in exercising Farmers' Rights and the right to food.",
+          "summary": "Global programme to empower indigenous peoples and smallholder farmers to uphold, strengthen and mainstream the rights for food and nutrition security in the context of climate change adaptation. Addresses the interconnectedness of food systems as well as the active participation of the poor in achieving inclusive policy governance, and in exercising Farmers  Rights and the right to food.",
           "type": "Programme",
           "host": "Oxfam",
           "main_sponsor": "Sida/Sweden. Netherlands. IFAD",
@@ -3110,15 +2621,12 @@
           "policy_planning": "1",
           "knowledge_learning": "",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "1",
-          "response_corona": "Oxfam is gearing up its entire humanitarian aid delivery system to help the poorest and most marginalized people as they face the rising tide of infections ahead.",
-          "url_corona": "https://www.oxfam.org/en/oxfams-response-coronavirus"
+          "practice_innovation": ""
      },
      {
           "name": "UNEP FI",
           "url": "http://www.unepfi.org/",
-          "summary": "Partnership with global financial sector created in the wake of the 1992 Earth Summit with a mission to promote sustainable finance. Focus on policy  by fomenting country-level dialogues between finance practitioners, supervisors, regulators and policy-makers, and, at the international level, by promoting financial sector involvement in global climate processes.",
+          "summary": "Partnership with global financial sector created in the wake of the 1992 Earth Summit with a mission to promote sustainable finance. Focus on policy   by fomenting country-level dialogues between finance practitioners, supervisors, regulators and policy-makers, and, at the international level, by promoting financial sector involvement in global climate processes.",
           "type": "Programme",
           "host": "UNEP",
           "main_sponsor": "",
@@ -3129,10 +2637,7 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "1",
-          "practice_innovation": "",
-          "active_corona": "1",
-          "response_corona": "UNEP Finance Initiative is providing a platform for banks to exchange experiences and ideas as they take action to support society and businesses in this unprecedented crisis.",
-          "url_corona": "https://www.unepfi.org/banking/bankingprinciples/responsible-banking-in-the-covid-19-crisis/"
+          "practice_innovation": ""
      },
      {
           "name": "Urban Poor Fund International",
@@ -3148,10 +2653,7 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "1",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "V20 Finance Ministers of the Climate Vulnerable Forum",
@@ -3167,10 +2669,7 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "Value Chain Risk to Resilience (R2R)",
@@ -3186,10 +2685,7 @@
           "policy_planning": "",
           "knowledge_learning": "",
           "finance_budgets": "1",
-          "practice_innovation": "",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": ""
      },
      {
           "name": "We Mean Business",
@@ -3205,15 +2701,12 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "1",
-          "active_corona": "0",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": "1"
      },
      {
           "name": "Zilient",
           "url": "https://www.zilient.org/",
-          "summary": "Zilient brings together professionals in NGOs, INGOs, academia, government, and the private sector to learn from each other, and create new solutions together. Its purpose was to provide the best content, connections, and opportunities for collaboration, helping people working in resilience.",
+          "summary": "Zilient brings together professionals in NGOs, INGOs, academia, government, and the private sector to learn from each other, and create new solutions together.  Its purpose was to provide the best content, connections, and opportunities for collaboration, helping people working in resilience.",
           "type": "Network/ partnership/ platform",
           "host": "Thomson Reuters",
           "main_sponsor": "Rockefeller Foundation",
@@ -3224,9 +2717,6 @@
           "policy_planning": "",
           "knowledge_learning": "1",
           "finance_budgets": "",
-          "practice_innovation": "1",
-          "active_corona": "-88",
-          "response_corona": "",
-          "url_corona": ""
+          "practice_innovation": "1"
      }
 ]
