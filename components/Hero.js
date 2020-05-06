@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from 'react';
 import Toggle from './Toggle';
 import Aos from 'aos';
 
-const Hero = () => {
+const Hero = ({ setActiveToggle }) => {
      let arr = rawInitiatives;
      const numberOfInitiatives = (area) => {
           let results = arr.filter((x) => x.main_geographic_focus === area);
@@ -54,19 +54,23 @@ const Hero = () => {
      //   result.innerText = obj.hasOwnProperty('name');
 
      const handleClick = () => {
-          setToggle(!toggle);
+          setToggle((toggle) => !toggle);
      };
 
      useEffect(() => {
           Aos.init({ duration: 500 });
+          setActiveToggle((s) => [
+               ...s,
+               { click: handleClick, name: 'Geographic Distribution' },
+          ]);
      }, []);
 
      return (
           <div>
-               <Toggle
+               {/* <Toggle
                     click={handleClick}
                     toggleTitle="Geographic Distribution"
-               />
+               /> */}
                {toggle ? (
                     <div className={style.hero} data-aos="fade-down">
                          {cardData.map((data, i) => {
