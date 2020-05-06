@@ -1,39 +1,39 @@
-@import "../../base/index.scss";
+@import '../../base/index.scss';
 
 .filter {
-  display: flex;
-  justify-content: space-between;
-  padding: $mn/1.5 0 $mn/10 0;
+     display: flex;
+     justify-content: space-between;
+     padding: $mn/2.5 0 $mn/10 0;
 
-  select {
-    display: block;
-    height: $mn/2;
-    @include FontNormal;
-    width: 24%;
-    border-radius: 5px;
-    color: $ColorRock;
-  }
+     select {
+          display: block;
+          height: $mn/2;
+          @include FontNormal;
+          width: 24%;
+          border-radius: 5px;
+          color: $ColorRock;
+     }
 }
 .blobs {
-  display: flex;
+     display: flex;
 
-  .blobButton {
-    display: flex;
-    flex-direction: row;
-    border: none;
-    border-radius: 50px;
-    background: lightcoral;
-    padding: $mn/6 $mn/2;
-    margin: $mn/10 $mn/8 0 0;
-  }
+     .blobButton {
+          display: flex;
+          flex-direction: row;
+          border: none;
+          border-radius: 50px;
+          background: lightcoral;
+          padding: $mn/6 $mn/2;
+          margin: $mn/10 $mn/8 0 0;
+     }
 }
 .blobs div {
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
+     display: flex;
+     align-items: flex-end;
+     justify-content: flex-end;
 }
 
 .blobs p {
-  cursor: pointer;
-  padding-left: 10px;
+     cursor: pointer;
+     padding-left: 10px;
 }
