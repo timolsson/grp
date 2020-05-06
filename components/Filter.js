@@ -92,12 +92,10 @@ const Filter = ({ setFilter }) => {
       sector.current,
     ];
     filterOptions.forEach((select) => {
-      console.log(filterOptions);
       let match = [...select.children].filter((option) => {
         return option.value === text;
       });
       if (match[0]) {
-        console.log(match[0]);
         select.selectedIndex = 0;
       }
     });
