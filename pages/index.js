@@ -12,6 +12,7 @@ const IndexPage = () => {
                <Header />
                <div className={style.root}>
                     <Intro />
+                    <Hero />
                     <Initiatives />
                </div>
           </div>

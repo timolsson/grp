@@ -3,16 +3,18 @@
 .header {
      box-shadow: 0 0 10px #0004;
      display: flex;
+     z-index: 100000;
      width: 100%;
      padding: $mn/4 $mn/6;
-     height: $mn * 1.2;
+     min-height: $mn * 1.2;
      align-items: center;
+     flex-wrap: wrap;
      .LogInButton {
           margin-left: auto;
      }
      h1,
      button {
-          @include FontLarge;
+          @include FontNormal;
           margin: 0px $mn/3;
      }
      button {
@@ -25,7 +27,7 @@
      }
 
      img {
-          height: 100%;
+          height: calc(30px + 2vw);
           margin-left: $mn/3;
      }
 }
