@@ -7,7 +7,8 @@ const Toggle = (props) => {
      const input = useRef();
 
      useEffect(() => {
-          input.current.checked != props.isToggled;
+          input.current.checked = props.isToggled;
+          console.log(props.isToggled);
      }, []);
 
      return (
@@ -18,7 +19,6 @@ const Toggle = (props) => {
                          type="checkbox"
                          onClick={(e) => {
                               props.click();
-                              console.log(e.currentTarget.checked);
                          }}
                     />
                     <span className={style.slider} />

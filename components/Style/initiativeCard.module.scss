@@ -48,6 +48,9 @@
           flex-direction: row;
      }
      .frontLeft {
+          p {
+               @include FontNormal;
+          }
           width: 60%;
           margin-right: auto;
           // border: 1px solid grey;
@@ -78,7 +81,7 @@
                display: block;
                white-space: nowrap;
                text-decoration: none;
-               padding: 0 0 $mn/6 0;
+               padding: $mn/4 0 $mn/6 0;
                @include FontNormal;
           }
      }
@@ -86,7 +89,7 @@
           width: 40%;
           position: relative;
           margin-right: auto;
-
+          margin-top: $mn/4;
           height: 100%;
           a {
                width: min-content;
@@ -109,7 +112,7 @@
                width: min-content;
                white-space: nowrap;
                // margin-left: auto;
-               margin-top: $mn/5;
+               // margin-top: $mn/5;
           }
      }
      .bottomCard {
@@ -134,14 +137,17 @@
           position: absolute;
           left: 0;
           bottom: 0;
+          width: 100%;
 
           .icons {
                display: flex;
+               position: relative;
                width: 100%;
                justify-content: space-evenly;
                padding: $mn/3 0px;
+
                .wrapper {
-                    width: 9.5%;
+                    width: 40px;
                     height: auto;
                     position: relative;
                     img {
@@ -150,7 +156,8 @@
                     .hover {
                          position: absolute;
                          @include FontNormal;
-                         opacity: 0.6;
+                         opacity: 0.5;
+                         font-weight: 600;
                          white-space: nowrap;
                          left: 50%;
                          transform: translateX(-50%);
