@@ -62,7 +62,7 @@ const InitiativeCard = ({ data, isFlipped }) => {
                     setBgColor('colorYellow');
                     break;
           }
-     }, []);
+     }, [data]);
      useEffect(() => {
           MAIN_AREAS_OF_WORK.forEach((area) => {
                const isArea = !data.mainAreas.includes(area.name);
