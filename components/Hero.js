@@ -18,7 +18,7 @@ const Hero = ({ setActiveToggle }) => {
      numberOfInitiatives('Regional - Asia');
      const cardData = [
           {
-               title: 'Total',
+               title: 'Total number of initiatives',
                stat: arr.length,
           },
 
@@ -61,7 +61,11 @@ const Hero = ({ setActiveToggle }) => {
           Aos.init({ duration: 500 });
           setActiveToggle((s) => [
                ...s,
-               { click: handleClick, name: 'Geographic Distribution' },
+               {
+                    click: handleClick,
+                    name: 'Geographic Distribution',
+                    isToggled: true,
+               },
           ]);
      }, []);
 

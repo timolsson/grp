@@ -17,7 +17,7 @@ const IndexPage = () => {
                     <Toggles toggle={toggle} />
                     <Intro setActiveToggle={setToggle} />
                     <Hero setActiveToggle={setToggle} />
-                    <Initiatives />
+                    <Initiatives setActiveToggle={setToggle} />
                </div>
           </div>
      );
