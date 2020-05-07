@@ -63,4 +63,56 @@
           line-height: 1.3;
           color: #58595b;
      }
+     .colorLegend {
+          margin-top: $mn/4;
+          margin-left: $mn/3;
+          display: flex;
+          flex-direction: column;
+          div {
+               align-items: center;
+               margin: 5px 2px;
+               display: flex;
+               p {
+                    margin-left: $mn/4;
+                    @include FontNormal;
+               }
+               span {
+                    transform: rotate(45deg);
+                    display: block;
+                    width: 10px;
+                    height: 10px;
+               }
+          }
+
+          .global {
+               span {
+                    background: #e04f4d;
+               }
+          }
+          .africa {
+               span {
+                    background: #49853e;
+               }
+          }
+          .asia {
+               span {
+                    background: #e56e09;
+               }
+          }
+          .sAsia {
+               span {
+                    background: #a84d96;
+               }
+          }
+          .la {
+               span {
+                    background: #28c9a8;
+               }
+          }
+          .seAsia {
+               span {
+                    background: #ebc007;
+               }
+          }
+     }
 }

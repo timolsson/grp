@@ -3,8 +3,8 @@
 .initiativeCard {
      position: relative;
      width: 22%;
-     min-width: 400px;
-     max-width: 460px;
+     min-width: 320px;
+     max-width: 700px;
      display: flex;
      flex-direction: column;
      flex-grow: 1;
@@ -13,6 +13,9 @@
      cursor: pointer;
      @media screen and (max-width: 400px) {
           min-width: 250px;
+     }
+     @media screen and (min-width: 1000px) {
+          min-width: 400px;
      }
      .front,
      .back {
@@ -56,7 +59,7 @@
           margin-right: auto;
           // border: 1px solid grey;
           position: relative;
-          overflow-y: scroll;
+
           .readMore {
                padding-top: $mn/2;
 
@@ -78,16 +81,16 @@
           }
 
           a {
-               width: min-content;
                display: block;
                white-space: nowrap;
                text-decoration: none;
                padding: $mn/4 0 $mn/6 0;
+               color: #009ede;
                @include FontNormal;
           }
      }
      .frontRight {
-          width: 40%;
+          width: auto;
           position: relative;
           margin-right: auto;
           margin-top: $mn/4;
@@ -99,6 +102,7 @@
                padding: 0 0 $mn/6 0;
                @include FontNormal;
                white-space: nowrap;
+               color: #009ede;
           }
           .covid {
                color: $ColorRock;
