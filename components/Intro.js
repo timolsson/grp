@@ -75,6 +75,27 @@ const Intro = ({ setActiveToggle }) => {
                                    GRP Resilience Mapping (updated 6 March 2020)
                               </a>
                          </p>
+
+                         <div className={style.colorLegend}>
+                              <div className={style.global}>
+                                   <span /> <p>Global</p>
+                              </div>
+                              <div className={style.africa}>
+                                   <span /> <p>Africa</p>
+                              </div>
+                              <div className={style.asia}>
+                                   <span /> <p>Asia</p>
+                              </div>
+                              <div className={style.la}>
+                                   <span /> <p>Latin America</p>
+                              </div>
+                              <div className={style.sAsia}>
+                                   <span /> <p>South Asia</p>
+                              </div>
+                              <div className={style.seAsia}>
+                                   <span /> <p>South East Asia</p>
+                              </div>
+                         </div>
                     </div>
                ) : (
                     ''
