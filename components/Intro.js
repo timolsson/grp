@@ -40,36 +40,58 @@ const Intro = ({ setActiveToggle }) => {
             objectives are grouped under the following headings:
           </p>
 
-          <ul>
-            <li>
-              Fund and financing facilities
-              <br />
-            </li>
-            <li>
-              Networks, alliances and partnerships
-              <br />
-            </li>
-            <li>
-              Organisations
-              <br />
-            </li>
-            <li>Programmes and projects</li>
-          </ul>
-          <p>
-            GRP welcomes the details of further initiatives and corrections to
-            any of these summaries in this document. The should be sent to
-            info@globalresiliencepartnership.org.
-            <br />
-            <br />
-            <a href="http://www.globalresiliencepartnership.org/wp-content/uploads/2018/05/GRP-Resilience-Mapping-6-March-2020.pdf">
-              GRP Resilience Mapping (updated 6 March 2020)
-            </a>
-          </p>
-        </div>
-      ) : (
-        ""
-      )}
-    </div>
-  );
+                         <ul>
+                              <li>
+                                   Fund and financing facilities
+                                   <br />
+                              </li>
+                              <li>
+                                   Networks, alliances and partnerships
+                                   <br />
+                              </li>
+                              <li>
+                                   Organisations
+                                   <br />
+                              </li>
+                              <li>Programmes and projects</li>
+                         </ul>
+                         <p>
+                              GRP welcomes the details of further initiatives
+                              and corrections to any of these summaries in this
+                              document. The should be sent to
+                              info@globalresiliencepartnership.org.
+                              <br />
+                              <br />
+                              <a href="http://www.globalresiliencepartnership.org/wp-content/uploads/2018/05/GRP-Resilience-Mapping-6-March-2020.pdf">
+                                   GRP Resilience Mapping (updated 6 March 2020)
+                              </a>
+                         </p>
+
+                         <div className={style.colorLegend}>
+                              <div className={style.global}>
+                                   <span /> <p>Global</p>
+                              </div>
+                              <div className={style.africa}>
+                                   <span /> <p>Africa</p>
+                              </div>
+                              <div className={style.asia}>
+                                   <span /> <p>Asia</p>
+                              </div>
+                              <div className={style.la}>
+                                   <span /> <p>Latin America</p>
+                              </div>
+                              <div className={style.sAsia}>
+                                   <span /> <p>South Asia</p>
+                              </div>
+                              <div className={style.seAsia}>
+                                   <span /> <p>South East Asia</p>
+                              </div>
+                         </div>
+                    </div>
+               ) : (
+                    ''
+               )}
+          </div>
+     );
 };
 export default Intro;
