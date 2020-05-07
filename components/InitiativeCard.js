@@ -5,7 +5,7 @@ import { useRef, useEffect, useState } from 'react';
 import { useSpring, animated } from 'react-spring';
 import { MAIN_AREAS_OF_WORK } from '../utils/util';
 
-const InitiativeCard = ({ data }) => {
+const InitiativeCard = ({ data, isFlipped }) => {
      const policy_planning = useRef();
      const knowledge_learning = useRef();
      const finance_budgets = useRef();
